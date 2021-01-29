@@ -1,0 +1,1 @@
+buildDockerAndPublishImage('jenkins-weekly', [mainBranch: 'main'])  
