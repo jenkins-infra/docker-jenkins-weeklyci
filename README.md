@@ -1,6 +1,6 @@
-# docker-jenkins-lts
+# docker-jenkins-weekly
 
-a docker image containing the latest jenkins lts release and plugins
+a docker image containing the latest jenkins weekly release and plugins
 
 ## Updating Plugins
 
