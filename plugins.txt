@@ -1,8 +1,6 @@
 ansicolor:0.7.5
 antisamy-markup-formatter:2.1
 authentication-tokens:1.4
-azure-container-agents:1.2.1
-azure-vm-agents:1.5.2
 basic-branch-build-strategies:1.3.2
 blueocean:1.24.4
 blueocean-autofavorite:1.2.4
@@ -26,7 +24,6 @@ blueocean-rest-impl:1.24.4
 blueocean-web:1.24.4
 branch-api:2.6.3
 build-name-setter:2.1.0
-cloud-stats:0.26
 config-file-provider:3.7.0
 configuration-as-code:1.46
 credentials:2.3.14
