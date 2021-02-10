@@ -26,7 +26,7 @@ branch-api:2.6.3
 build-name-setter:2.1.0
 config-file-provider:3.7.0
 configuration-as-code:1.47
-credentials:2.3.14
+credentials:2.3.15
 credentials-binding:1.24
 datadog:2.8.1
 ec2:1.56
@@ -39,7 +39,7 @@ github:1.33.0
 github-api:1.222
 github-autostatus:3.6.2
 github-branch-source:2.10.1
-github-checks:1.0.9
+github-checks:1.0.10
 github-label-filter:1.0.0
 groovy:2.3
 inline-pipeline:1.0.1
