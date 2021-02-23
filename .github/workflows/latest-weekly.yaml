@@ -12,12 +12,11 @@ jobs:
       - name: Check out source code
         uses: actions/checkout@v2
 
-      - name: Update
+      - name: Jenkins LTS version
         id: update
-        uses: docker://garethjevans/jv:0.0.3
+        uses: garethjevans/jenkins-version@0.1.0
         with:
-          entrypoint: jv
-          args: get --version-identifier latest --github-action-output
+          version-identifier: latest
 
       - name: Process Version
         id: process
