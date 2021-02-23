@@ -13,10 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Update
-        uses: docker://garethjevans/uc:0.0.8
-        with:
-          entrypoint: uc
-          args: update --determine-version-from-dockerfile --display-updates -w
+        uses: garethjevans/uc@0.0.14
 
       - name: Create Pull Request
         id: cpr
