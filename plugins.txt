@@ -24,7 +24,7 @@ blueocean-rest-impl:1.24.4
 blueocean-web:1.24.4
 branch-api:2.6.3
 build-name-setter:2.1.0
-cloudbees-jenkins-advisor:3.2.3
+cloudbees-jenkins-advisor:3.2.4
 config-file-provider:3.7.0
 configuration-as-code:1.47
 credentials:2.3.15
