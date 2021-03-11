@@ -1,1 +1,5 @@
-buildDockerAndPublishImage('jenkins-weekly', [mainBranch: 'main'])  
+buildDockerAndPublishImage('jenkins-weekly', [
+    mainBranch: 'main',
+    automaticSemanticVersioning: true,
+    metadataFromSh: 'cat Dockerfile | grep "FROM jenkins" | sed "s|FROM jenkins/jenkins:|+|" | sed "s|-jdk11||"'
+])  
