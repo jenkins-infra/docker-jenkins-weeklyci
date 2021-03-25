@@ -2,5 +2,5 @@ buildDockerAndPublishImage('jenkins-weekly', [
     mainBranch: 'main',
     automaticSemanticVersioning: true,
     gitCredentials: 'github-app-infra',
-    metadataFromSh: 'cat Dockerfile | grep "FROM jenkins" | sed "s|FROM jenkins/jenkins:|+|" | sed "s|-jdk11||"'
+    metadataFromSh: 'cat Dockerfile | grep "FROM jenkins" | sed "s|FROM jenkins/jenkins:|-|" | sed "s|-jdk11||"'
 ])
