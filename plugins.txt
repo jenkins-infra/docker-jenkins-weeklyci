@@ -50,7 +50,7 @@ jira:3.3
 job-dsl:1.77
 junit:1.49
 kubernetes:1.29.5
-kubernetes-credentials:0.8.0
+kubernetes-credentials:0.9.0
 kubernetes-credentials-provider:0.18-1
 ldap:2.7
 lockable-resources:2.10
