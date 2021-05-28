@@ -1,7 +1,11 @@
-buildDockerAndPublishImage('jenkins-weekly', [
-    mainBranch: 'main',
-    automaticSemanticVersioning: true,
-    gitCredentials: 'github-app-infra',
-    nextVersionCommand: 'jx-release-version -next-version=semantic:strip-prerelease',
-    metadataFromSh: 'cat Dockerfile | grep "FROM jenkins" | sed "s|FROM jenkins/jenkins:|-|" | sed "s|-jdk11||"'
-])
+retry(3) {
+    timeout(time: 10, unit: 'MINUTES') {
+        buildDockerAndPublishImage('jenkins-weekly', [
+            mainBranch: 'main',
+            automaticSemanticVersioning: true,
+            gitCredentials: 'github-app-infra',
+            nextVersionCommand: 'jx-release-version -next-version=semantic:strip-prerelease',
+            metadataFromSh: 'cat Dockerfile | grep "FROM jenkins" | sed "s|FROM jenkins/jenkins:|-|" | sed "s|-jdk11||"'
+        ])
+    }
+}
