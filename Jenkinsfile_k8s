@@ -1,7 +1,7 @@
 // From https://issues.jenkins.io/browse/JENKINS-51454?focusedCommentId=389893&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-389893
 retry(3) {
     try {
-        timeout(time: 10, unit: 'MINUTES') {
+        timeout(time: 15, unit: 'MINUTES') {
             buildDockerAndPublishImage('jenkins-weekly', [
                 mainBranch: 'main',
                 automaticSemanticVersioning: true,
