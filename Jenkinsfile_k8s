@@ -6,6 +6,7 @@ retry(3) {
                 mainBranch: 'main',
                 automaticSemanticVersioning: true,
                 gitCredentials: 'github-app-infra',
+                nextVersionImage: 'ghcr.io/jenkins-x/jx-release-version:2.4.13',
                 nextVersionCommand: 'jx-release-version -next-version=semantic:strip-prerelease',
                 metadataFromSh: 'cat Dockerfile | grep "FROM jenkins" | sed "s|FROM jenkins/jenkins:|-|" | sed "s|-jdk11||"'
             ])
