@@ -28,7 +28,7 @@ branch-api:2.7.0
 build-name-setter:2.2.0
 cloudbees-jenkins-advisor:3.3.2
 command-launcher:1.6
-config-file-provider:3.8.1
+config-file-provider:3.8.2
 configuration-as-code:1.54
 credentials:2.6.2
 credentials-binding:1.27
