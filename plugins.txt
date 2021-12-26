@@ -45,7 +45,6 @@ github-branch-source:2.11.3
 github-checks:1.0.14
 github-label-filter:1.0.0
 groovy:2.4
-http_request:1.12
 inline-pipeline:1.0.1
 javadoc:1.6
 jira:3.6
