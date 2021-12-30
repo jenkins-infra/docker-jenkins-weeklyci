@@ -33,6 +33,7 @@ configuration-as-code:1.55
 credentials:2.6.2
 credentials-binding:1.27
 datadog:3.4.0
+dark-theme:155.v497c78bbdbb3
 ec2:1.66
 embeddable-build-status:2.0.3
 extended-read-permission:3.2
