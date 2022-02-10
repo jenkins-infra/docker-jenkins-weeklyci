@@ -1,6 +1,6 @@
 # docker-jenkins-weekly
 
-a docker image containing the latest jenkins weekly release and plugins
+a docker image containing the latest jenkins weekly release and plugins, published here: https://hub.docker.com/r/jenkinsciinfra/jenkins-weekly
 
 ## Updating Plugins
 
