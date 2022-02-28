@@ -1,14 +1,13 @@
+@Library("pipeline-library@pull/308/head") _
+
 // From https://issues.jenkins.io/browse/JENKINS-51454?focusedCommentId=389893&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-389893
 retry(3) {
     try {
         timeout(time: 30, unit: 'MINUTES') {
             buildDockerAndPublishImage('jenkins-weekly', [
-                mainBranch: 'main',
                 automaticSemanticVersioning: true,
                 gitCredentials: 'github-app-infra',
-                nextVersionImage: 'ghcr.io/jenkins-x/jx-release-version:2.4.13',
-                nextVersionCommand: 'jx-release-version -next-version=semantic:strip-prerelease',
-                metadataFromSh: 'cat Dockerfile | grep "FROM jenkins" | sed "s|FROM jenkins/jenkins:|-|" | sed "s|-jdk11||"'
+                nextVersionCommand: '$(jx-release-version -next-version=semantic:strip-prerelease)-$(grep "FROM jenkins" Dockerfile | cut -d: -f2 | cut -d- -f1)',
             ])
         }
     } catch(org.jenkinsci.plugins.workflow.steps.FlowInterruptedException ex){
