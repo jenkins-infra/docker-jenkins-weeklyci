@@ -7,7 +7,7 @@ retry(3) {
             buildDockerAndPublishImage('jenkins-weekly', [
                 automaticSemanticVersioning: true,
                 gitCredentials: 'github-app-infra',
-                nextVersionCommand: '$(jx-release-version -next-version=semantic:strip-prerelease)-$(grep "FROM jenkins" Dockerfile | cut -d: -f2 | cut -d- -f1)',
+                nextVersionCommand: 'echo "$(jx-release-version -next-version=semantic:strip-prerelease)-$(grep "FROM jenkins" Dockerfile | cut -d: -f2 | cut -d- -f1)"',
             ])
         }
     } catch(org.jenkinsci.plugins.workflow.steps.FlowInterruptedException ex){
