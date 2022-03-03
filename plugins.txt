@@ -32,7 +32,7 @@ config-file-provider:3.9.0
 configuration-as-code:1414.v878271fc496f
 credentials:1074.v60e6c29b_b_44b_
 credentials-binding:1.27.1
-dark-theme:157.v2587a07bf876
+dark-theme:156.v6cf16af6f9ef # noupdate
 datadog:3.5.0
 ec2:1.67
 embeddable-build-status:2.0.3
