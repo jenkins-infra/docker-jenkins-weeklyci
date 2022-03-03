@@ -1,21 +1,8 @@
 @Library('pipeline-library@pull/311/head') _
 
-// From https://issues.jenkins.io/browse/JENKINS-51454?focusedCommentId=389893&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-389893
-retry(3) {
-    try {
-        timeout(time: 30, unit: 'MINUTES') {
-            buildDockerAndPublishImage('jenkins-weekly', [
-                useContainer: false,
-                automaticSemanticVersioning: true,
-                gitCredentials: 'github-app-infra',
-                nextVersionCommand: 'echo "$(jx-release-version -next-version=semantic:strip-prerelease)-$(grep "FROM jenkins" Dockerfile | cut -d: -f2 | cut -d- -f1)"',
-            ])
-        }
-    } catch(org.jenkinsci.plugins.workflow.steps.FlowInterruptedException ex){
-        def causes = ex.causes
-        if(causes.find { ! (it instanceof org.jenkinsci.plugins.workflow.steps.TimeoutStepExecution$ExceededTimeout) }) {
-            throw ex
-        }
-    throw new RuntimeException(ex)
-    }
-}
+buildDockerAndPublishImage('jenkins-weekly', [
+    useContainer: false,
+    automaticSemanticVersioning: true,
+    gitCredentials: 'github-app-infra',
+    nextVersionCommand: 'echo "$(jx-release-version -next-version=semantic:strip-prerelease)-$(grep "FROM jenkins" Dockerfile | cut -d: -f2 | cut -d- -f1)"',
+])
