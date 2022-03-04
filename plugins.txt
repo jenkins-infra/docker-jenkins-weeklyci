@@ -90,7 +90,7 @@ variant:1.4
 warnings-ng:9.11.1
 workflow-aggregator:2.7
 workflow-api:1138.v619fd5201b_2f
-workflow-basic-steps:941.vdfe1b_a_132c64
+workflow-basic-steps:937.v7a_b_7579e07a_3
 workflow-cps:2660.vb_c0412dc4e6d
 workflow-cps-global-lib:564.ve62a_4eb_b_e039
 workflow-durable-task-step:1121.va_65b_d2701486
