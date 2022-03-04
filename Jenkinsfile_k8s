@@ -1,5 +1,3 @@
-@Library('pipeline-library@pull/311/head') _
-
 buildDockerAndPublishImage('jenkins-weekly', [
     useContainer: false,
     automaticSemanticVersioning: true,
