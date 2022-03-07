@@ -36,7 +36,7 @@ credentials:1074.v60e6c29b_b_44b_
 credentials-binding:1.27.1
 dark-theme:157.v2587a07bf876
 datadog:3.5.0
-ec2:1.67
+ec2:1.68
 embeddable-build-status:2.0.3
 extended-read-permission:3.2
 git:4.10.3
