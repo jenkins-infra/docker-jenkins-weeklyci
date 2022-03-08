@@ -42,7 +42,7 @@ extended-read-permission:3.2
 git:4.10.3
 git-client:3.11.0
 git-forensics:1.4.0
-github:1.34.2
+github:1.34.3
 github-autostatus:3.6.2
 github-branch-source:2.11.4
 github-checks:1.0.18
@@ -75,7 +75,7 @@ pipeline-stage-tags-metadata:2.2064.v5eef7d0982b_e
 pipeline-stage-view:2.23
 pipeline-utility-steps:2.12.0
 plain-credentials:1.8
-prometheus:2.0.10
+prometheus:2.0.11
 scm-api:595.vd5a_df5eb_0e39
 scm-filter-branch-pr:0.5.1
 script-security:1140.vf967fb_efa_55a_
