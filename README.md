@@ -5,8 +5,10 @@ a docker image containing the latest jenkins weekly release and plugins, publish
 ## Updating Plugins
 
 ```
-uc update --determine-version-from-docker-file --display-updates -w
+bash ./bin/update-plugins.sh
 ```
+
+This script uses the [Jenkins Plugin Manager Tool command line](https://github.com/jenkinsci/plugin-installation-manager-tool) under the hood to update the plugins.
 
 ## Update Jenkins Version
 
