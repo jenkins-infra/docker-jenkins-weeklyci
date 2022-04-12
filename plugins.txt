@@ -32,7 +32,7 @@ cloudbees-jenkins-advisor:3.3.2
 command-launcher:1.6
 config-file-provider:3.9.0
 configuration-as-code:1414.v878271fc496f
-credentials:1112.vc87b_7a_3597f6
+credentials:1118.v320cd028cb_a_0
 credentials-binding:1.27.1
 dark-theme:165.vb_9cb_da_25112e
 datadog:3.5.1
