@@ -34,7 +34,7 @@ config-file-provider:3.9.0
 configuration-as-code:1414.v878271fc496f
 credentials:1118.v320cd028cb_a_0
 credentials-binding:1.27.1
-dark-theme:165.vb_9cb_da_25112e
+dark-theme:171.v2540e8184da_0
 datadog:3.5.1
 design-library:51.v6f6b_b_59d6644
 ec2:1.68
