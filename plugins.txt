@@ -35,7 +35,7 @@ configuration-as-code:1429.v09b_044a_c93de
 credentials:1126.ve05618c41e62
 credentials-binding:523.vd859a_4b_122e6
 dark-theme:171.v2540e8184da_0
-datadog:3.5.2
+datadog:4.0.0
 design-library:51.v6f6b_b_59d6644
 ec2:1.68
 embeddable-build-status:2.0.3
