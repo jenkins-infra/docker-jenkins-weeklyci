@@ -29,14 +29,14 @@ blueocean-web:1.25.3
 branch-api:2.1046.v0ca_37783ecc5
 build-name-setter:2.2.0
 cloudbees-jenkins-advisor:3.3.2
-command-launcher:1.6
+command-launcher:81.v9c2cb_cb_db_392
 config-file-provider:3.9.0
 configuration-as-code:1429.v09b_044a_c93de
 credentials:1126.ve05618c41e62
 credentials-binding:523.vd859a_4b_122e6
 dark-theme:171.v2540e8184da_0
 datadog:4.0.0
-design-library:51.v6f6b_b_59d6644
+design-library:67.va_a_dc66e4ec79
 ec2:1.68
 embeddable-build-status:2.0.3
 extended-read-permission:3.2
@@ -60,7 +60,7 @@ kubernetes-credentials-provider:0.20
 ldap:2.9
 lockable-resources:2.14
 matrix-auth:3.1.1
-matrix-project:758.v7a_ea_491852f3
+matrix-project:771.v574584b_39e60
 metrics:4.1.6.2
 pipeline-build-step:2.18
 pipeline-github:2.8-138.d766e30bb08b
@@ -74,7 +74,7 @@ pipeline-rest-api:2.24
 pipeline-stage-step:293.v200037eefcd5
 pipeline-stage-tags-metadata:2.2077.vc78ec45162f1
 pipeline-stage-view:2.24
-pipeline-utility-steps:2.12.0
+pipeline-utility-steps:2.12.1
 plain-credentials:1.8
 prometheus:2.0.11
 scm-api:608.vfa_f971c5a_a_e9
