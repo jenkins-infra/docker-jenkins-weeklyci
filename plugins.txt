@@ -36,7 +36,7 @@ credentials:1126.ve05618c41e62
 credentials-binding:523.vd859a_4b_122e6
 dark-theme:171.v2540e8184da_0
 datadog:4.0.0
-design-library:70.v4e33d778ec36
+design-library:72.vd47942ea_b_0d8
 ec2:1.68
 embeddable-build-status:2.0.3
 extended-read-permission:3.2
