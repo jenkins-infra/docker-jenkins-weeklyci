@@ -3,7 +3,7 @@ antisamy-markup-formatter:2.7
 authentication-tokens:1.4
 azure-container-agents:241.va_780fa_dc374a_
 azure-credentials:216.ve0b_4a_485ffc2
-azure-vm-agents:810.v0a97a847315a
+azure-vm-agents:813.v8ae017133e51
 basic-branch-build-strategies:1.3.2
 blueocean:1.25.3
 blueocean-autofavorite:1.2.5
@@ -36,7 +36,7 @@ credentials:1126.ve05618c41e62
 credentials-binding:523.vd859a_4b_122e6
 dark-theme:171.v2540e8184da_0
 datadog:4.0.0
-design-library:72.vd47942ea_b_0d8
+design-library:75.v500ecdc73d5a_
 ec2:1.68
 embeddable-build-status:2.0.3
 extended-read-permission:3.2
@@ -45,7 +45,7 @@ git-client:3.11.0
 git-forensics:1.8.0
 github:1.34.3
 github-autostatus:3.6.2
-github-branch-source:1602.vfe89fe441b_36
+github-branch-source:1628.vb_2f51293cb_78
 github-checks:1.0.18
 github-label-filter:1.0.0
 groovy:2.4
@@ -58,7 +58,7 @@ kubernetes:3580.v78271e5631dc
 kubernetes-credentials:0.9.0
 kubernetes-credentials-provider:0.20
 ldap:2.9
-lockable-resources:2.14
+lockable-resources:2.15
 matrix-auth:3.1.2
 matrix-project:771.v574584b_39e60
 metrics:4.1.6.2
