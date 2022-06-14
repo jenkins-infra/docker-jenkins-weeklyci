@@ -54,7 +54,8 @@ javadoc:217.v905b_86277a_2a_
 jira:3.7.1
 job-dsl:1.79
 junit:1119.va_a_5e9068da_d7
-kubernetes:3636.v84b_a_1dea_6240
+# TODO https://github.com/jenkinsci/kubernetes-plugin/pull/1190
+kubernetes:incrementals;org.csanchez.jenkins.plugins;3650.ve6f9e42d64de
 kubernetes-credentials:0.9.0
 kubernetes-credentials-provider:0.20
 ldap:2.10
@@ -89,11 +90,14 @@ toolenv:1.2
 variant:1.4
 warnings-ng:9.12.0
 workflow-aggregator:581.v0c46fa_697ffd
-workflow-api:1164.v760c223ddb_32
-workflow-basic-steps:948.v2c72a_091b_b_68
+# TODO https://github.com/jenkinsci/workflow-api-plugin/pull/217
+workflow-api:incrementals;org.jenkins-ci.plugins.workflow;1174.va_3d1b_702a_07b_
+# TODO https://github.com/jenkinsci/workflow-basic-steps-plugin/pull/203
+workflow-basic-steps:incrementals;org.jenkins-ci.plugins.workflow;962.v44eb_d807841a_
 workflow-cps:2725.v7b_c717eb_12ce
 workflow-cps-global-lib:588.v576c103a_ff86
-workflow-durable-task-step:1146.v1a_d2e603f929
+# TODO https://github.com/jenkinsci/workflow-durable-task-step-plugin/pull/231
+workflow-durable-task-step:incrementals;org.jenkins-ci.plugins.workflow;1151.v3d3a_91c77419
 workflow-job:1186.v8def1a_5f3944
 workflow-multibranch:716.vc692a_e52371b_
 workflow-scm-step:400.v6b_89a_1317c9a_
