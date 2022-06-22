@@ -53,7 +53,7 @@ inline-pipeline:1.0.1
 javadoc:217.v905b_86277a_2a_
 jira:3.7.1
 job-dsl:1.79
-junit:1119.va_a_5e9068da_d7
+junit:1119.1121.vc43d0fc45561
 kubernetes:incrementals;org.csanchez.jenkins.plugins;3650.ve6f9e42d64de
 kubernetes-credentials:0.9.0
 kubernetes-credentials-provider:0.20
