@@ -41,7 +41,7 @@ ec2:ec2-1.69-rc1489.404b_49d31b_e7
 aws-java-sdk-ec2:1.12.163-315.v2b_716ec8e4df
 apache-httpcomponents-client-4-api:4.5.13-1.0
 aws-credentials:189.v3551d5642995
-bouncycastle-api:2.25
+bouncycastle-api:2.26
 node-iterator-api:1.5.1
 trilead-api:1.0.13
 javax-activation-api:1.2.0-2
