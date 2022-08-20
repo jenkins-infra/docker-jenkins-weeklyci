@@ -42,7 +42,7 @@ aws-java-sdk-ec2:1.12.246-349.v96b_b_f7eb_a_c3c
 apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61
 aws-credentials:191.vcb_f183ce58b_9
 bouncycastle-api:2.26
-node-iterator-api:1.5.1
+node-iterator-api:49.v58a_8b_35f8363
 trilead-api:1.67.vc3938a_35172f
 javax-activation-api:1.2.0-4
 javax-mail-api:1.6.2-7
