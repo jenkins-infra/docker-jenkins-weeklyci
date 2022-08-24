@@ -36,7 +36,7 @@ credentials:1139.veb_9579fca_33b_
 credentials-binding:523.vd859a_4b_122e6
 dark-theme:185.v276b_5a_8966a_e
 datadog:4.0.0
-design-library:117.v597b_0483fa_2f
+design-library:120.v6535da_13898c
 ec2:incrementals;org.jenkins-ci.plugins;1.69-rc1489.404b_49d31b_e7
 aws-java-sdk-ec2:1.12.246-349.v96b_b_f7eb_a_c3c
 apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61
@@ -58,7 +58,7 @@ github-label-filter:1.0.0
 groovy:442.v817e6d937d6c
 inline-pipeline:1.0.2
 javadoc:226.v71211feb_e7e9
-jira:3.7.1
+jira:3.8
 job-dsl:1.81
 junit:1119.1121.vc43d0fc45561
 kubernetes:3697.v771155683e38
