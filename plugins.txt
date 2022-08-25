@@ -1,9 +1,6 @@
 ansicolor:1.0.2
 antisamy-markup-formatter:2.7
-apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61
 authentication-tokens:1.4
-aws-credentials:191.vcb_f183ce58b_9
-aws-java-sdk-ec2:1.12.246-349.v96b_b_f7eb_a_c3c
 azure-container-agents:241.va_780fa_dc374a_
 azure-credentials:216.ve0b_4a_485ffc2
 azure-vm-agents:822.v3a18fc3d2de1
@@ -29,7 +26,6 @@ blueocean-pipeline-scm-api:1.25.6
 blueocean-rest:1.25.6
 blueocean-rest-impl:1.25.6
 blueocean-web:1.25.6
-bouncycastle-api:2.26
 branch-api:2.1046.v0ca_37783ecc5
 build-name-setter:2.2.0
 cloudbees-jenkins-advisor:3.3.3
@@ -41,7 +37,7 @@ credentials-binding:523.vd859a_4b_122e6
 dark-theme:185.v276b_5a_8966a_e
 datadog:4.0.0
 design-library:120.v6535da_13898c
-ec2:incrementals;org.jenkins-ci.plugins;1.69-rc1489.404b_49d31b_e7
+ec2:2.0.0
 extended-read-permission:3.2
 git:4.11.5
 git-client:3.11.2
@@ -54,8 +50,6 @@ github-label-filter:1.0.0
 groovy:442.v817e6d937d6c
 inline-pipeline:1.0.2
 javadoc:226.v71211feb_e7e9
-javax-activation-api:1.2.0-4
-javax-mail-api:1.6.2-7
 jira:3.8
 job-dsl:1.81
 junit:1119.1121.vc43d0fc45561
@@ -67,7 +61,6 @@ lockable-resources:2.16
 matrix-auth:3.1.5
 matrix-project:785.v06b_7f47b_c631
 metrics:4.2.10-389.v93143621b_050
-node-iterator-api:49.v58a_8b_35f8363
 pipeline-build-step:2.18
 pipeline-github:2.8-138.d766e30bb08b
 pipeline-graph-analysis:195.v5812d95a_a_2f9
@@ -93,7 +86,6 @@ support-core:1206.v14049fa_b_d860
 timestamper:1.18
 token-macro:308.v4f2b_ed62b_b_16
 toolenv:1.2
-trilead-api:1.67.vc3938a_35172f
 variant:59.vf075fe829ccb
 warnings-ng:9.18.0
 workflow-aggregator:590.v6a_d052e5a_a_b_5
