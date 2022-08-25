@@ -3,7 +3,7 @@ antisamy-markup-formatter:2.7
 apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61
 authentication-tokens:1.4
 aws-credentials:191.vcb_f183ce58b_9
-aws-java-sdk-ec2:1.12.246-349.v96b_b_f7eb_a_c3c
+aws-java-sdk-ec2:1.12.287-357.vf82d85a_6eefd
 azure-container-agents:241.va_780fa_dc374a_
 azure-credentials:216.ve0b_4a_485ffc2
 azure-vm-agents:822.v3a18fc3d2de1
@@ -95,7 +95,7 @@ token-macro:308.v4f2b_ed62b_b_16
 toolenv:1.2
 trilead-api:1.67.vc3938a_35172f
 variant:59.vf075fe829ccb
-warnings-ng:9.18.0
+warnings-ng:9.19.1
 workflow-aggregator:590.v6a_d052e5a_a_b_5
 workflow-api:1192.v2d0deb_19d212
 workflow-basic-steps:991.v43d80fea_ff66
