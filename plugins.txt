@@ -93,7 +93,7 @@ support-core:1206.v14049fa_b_d860
 timestamper:1.18
 token-macro:308.v4f2b_ed62b_b_16
 toolenv:1.2
-trilead-api:1.67.vc3938a_35172f
+trilead-api:2.72.v2a_3236754f73
 variant:59.vf075fe829ccb
 warnings-ng:9.19.1
 workflow-aggregator:590.v6a_d052e5a_a_b_5
