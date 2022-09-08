@@ -13,7 +13,7 @@ jobs:
       - name: Check out source code
         uses: actions/checkout@v3
 
-      - name: Jenkins weekly version
+      - name: Jenkins Weekly version
         id: update
         uses: jenkins-infra/jenkins-version@0.2.1
         with:
