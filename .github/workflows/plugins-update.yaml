@@ -18,7 +18,7 @@ jobs:
           distribution: 'temurin'
           java-version: 11
 
-      - run: ./bin/update-plugins.sh
+      - run: echo "::set-output name=stdout::$(./bin/update-plugins.sh)\n"
         id: update-plugins
         name: Update plugins
 
