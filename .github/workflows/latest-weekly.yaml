@@ -38,9 +38,10 @@ jobs:
             echo "::set-output name=changed::false"
           fi
 
-      - name: Update
+      - name: Update plugins
+        run: ./bin/update-plugins.sh
         if: ${{ steps.diff.outputs.changed == 'true' }}
-        uses: jenkins-infra/uc@0.1.4
+        id: update-plugins
 
       - uses: tibdex/github-app-token@v1.6
         id: generate-token
