@@ -45,7 +45,7 @@ design-library:140.vd5572940c6e2
 ec2:incrementals;org.jenkins-ci.plugins;1.69-rc1489.404b_49d31b_e7
 extended-read-permission:3.2
 git:4.12.1
-git-client:3.12.0
+git-client:3.12.1
 git-forensics:1.10.0
 github:1.35.0
 github-autostatus:3.6.2
@@ -62,7 +62,7 @@ job-dsl:1.81
 junit:1143.v8d9a_e3355270
 kubernetes:3706.vdfb_d599579f3
 kubernetes-credentials:0.9.0
-kubernetes-credentials-provider:1.196.va_55f5e31e3c2
+kubernetes-credentials-provider:1.199.v4a_1d1f5d074f
 ldap:2.12
 lockable-resources:2.16
 matrix-auth:3.1.5
