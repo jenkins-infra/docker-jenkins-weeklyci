@@ -33,7 +33,7 @@ bouncycastle-api:2.26
 branch-api:2.1046.v0ca_37783ecc5
 build-name-setter:2.2.0
 buildtriggerbadge:251.vdf6ef853f3f5
-cloudbees-jenkins-advisor:3.3.3
+cloudbees-jenkins-advisor:326.v1821e6a_85e3f
 command-launcher:90.v669d7ccb_7c31
 config-file-provider:3.11.1
 configuration-as-code:1512.vb_79d418d5fc8
