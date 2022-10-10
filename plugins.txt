@@ -42,7 +42,7 @@ caffeine-api:2.9.3-65.v6a_47d0f4d1fe
 checks-api:1.7.5
 cloud-stats:0.27
 cloudbees-bitbucket-branch-source:791.vb_eea_a_476405b
-cloudbees-folder:6.758.vfd75d09eea_a_1
+cloudbees-folder:6.770.ve57b_a_fb_6a_67c
 cloudbees-jenkins-advisor:326.v1821e6a_85e3f
 cobertura:1.17
 code-coverage-api:3.2.0
@@ -90,7 +90,7 @@ javadoc:226.v71211feb_e7e9
 javax-activation-api:1.2.0-5
 javax-mail-api:1.6.2-8
 jaxb:2.3.6-2
-jdk-tool:1.0
+jdk-tool:55.v1b_32b_6ca_f9ca
 jenkins-design-language:1.25.8
 jersey2-api:2.37-1
 jira:3.8
@@ -141,7 +141,7 @@ snakeyaml-api:1.32-86.ve3f030a_75631
 sse-gateway:1.26
 ssh-agent:295.v9ca_a_1c7cc3a_a_
 ssh-credentials:305.v8f4381501156
-sshd:3.236.ved5e1b_cb_50b_2
+sshd:3.249.v2dc2ea_416e33
 structs:324.va_f5d6774f3a_d
 support-core:1206.v14049fa_b_d860
 theme-manager:1.5
@@ -150,7 +150,7 @@ token-macro:308.v4f2b_ed62b_b_16
 toolenv:1.2
 trilead-api:2.72.v2a_3236754f73
 variant:59.vf075fe829ccb
-warnings-ng:9.20.0
+warnings-ng:9.20.1
 windows-azure-storage:380.va3a027b784f4
 workflow-aggregator:590.v6a_d052e5a_a_b_5
 workflow-api:1192.v2d0deb_19d212
