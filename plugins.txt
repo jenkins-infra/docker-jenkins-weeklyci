@@ -153,9 +153,11 @@ variant:59.vf075fe829ccb
 warnings-ng:9.20.1
 windows-azure-storage:380.va3a027b784f4
 workflow-aggregator:590.v6a_d052e5a_a_b_5
+# TODO https://github.com/jenkinsci/workflow-api-plugin/pull/256
 workflow-api:incrementals;org.jenkins-ci.plugins.workflow;1199.v597ffe744637
 workflow-basic-steps:994.vd57e3ca_46d24
 workflow-cps:2802.v5ea_628154b_c2
+# TODO https://github.com/jenkinsci/workflow-durable-task-step-plugin/pull/180
 workflow-durable-task-step:incrementals;org.jenkins-ci.plugins.workflow;1296.v84036f77a_4ea
 workflow-job:1239.v71b_b_a_124a_725
 workflow-multibranch:716.vc692a_e52371b_
