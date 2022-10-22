@@ -42,7 +42,7 @@ caffeine-api:2.9.3-65.v6a_47d0f4d1fe
 checks-api:1.7.5
 cloud-stats:0.27
 cloudbees-bitbucket-branch-source:791.vb_eea_a_476405b
-cloudbees-folder:6.770.ve57b_a_fb_6a_67c
+cloudbees-folder:6.773.vd2dcc704ee7e
 cloudbees-jenkins-advisor:326.v1821e6a_85e3f
 cobertura:1.17
 code-coverage-api:3.2.0
@@ -70,7 +70,7 @@ forensics-api:1.16.0
 git:4.12.1
 git-client:3.12.1
 git-forensics:1.11.0
-github:1.35.0
+github:1.36.0
 github-api:1.303-400.v35c2d8258028
 github-autostatus:3.6.2
 github-branch-source:1695.v88de84e9f6b_9
@@ -116,7 +116,7 @@ okhttp-api:4.9.3-108.v0feda04578cf
 pipeline-build-step:2.18
 pipeline-github:2.8-138.d766e30bb08b
 pipeline-graph-analysis:195.v5812d95a_a_2f9
-pipeline-graph-view:116.vb_6dc82fa_f924
+pipeline-graph-view:118.v7535b_960f86c
 pipeline-groovy-lib:613.v9c41a_160233f
 pipeline-input-step:456.vd8a_957db_5b_e9
 pipeline-milestone-step:101.vd572fef9d926
