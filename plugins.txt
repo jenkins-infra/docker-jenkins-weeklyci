@@ -116,7 +116,7 @@ okhttp-api:4.9.3-108.v0feda04578cf
 pipeline-build-step:2.18
 pipeline-github:2.8-138.d766e30bb08b
 pipeline-graph-analysis:195.v5812d95a_a_2f9
-pipeline-graph-view:137.v1dc41d9c9758
+pipeline-graph-view:141.v05c71b_1c9b_e3
 pipeline-groovy-lib:613.v9c41a_160233f
 pipeline-input-step:456.vd8a_957db_5b_e9
 pipeline-milestone-step:101.vd572fef9d926
