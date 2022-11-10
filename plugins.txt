@@ -35,14 +35,14 @@ blueocean-rest-impl:1.25.8
 blueocean-web:1.25.8
 bootstrap5-api:5.2.1-3
 bouncycastle-api:2.26
-branch-api:2.1046.v0ca_37783ecc5
+branch-api:2.1051.v9985666b_f6cc
 build-name-setter:2.2.0
 buildtriggerbadge:251.vdf6ef853f3f5
 caffeine-api:2.9.3-65.v6a_47d0f4d1fe
 checks-api:1.8.0
 cloud-stats:254.v47891b_b_5b_6f6
 cloudbees-bitbucket-branch-source:791.vb_eea_a_476405b
-cloudbees-folder:6.773.vd2dcc704ee7e
+cloudbees-folder:6.784.vc60058fa_f269
 cloudbees-jenkins-advisor:326.v1821e6a_85e3f
 cobertura:1.17
 code-coverage-api:3.2.0
@@ -52,7 +52,7 @@ commons-text-api:1.10.0-27.vb_fa_3896786a_7
 config-file-provider:3.11.1
 configuration-as-code:1569.vb_72405b_80249
 copyartifact:1.47
-credentials:1189.vf61b_a_5e2f62e
+credentials:1214.v1de940103927
 credentials-binding:523.vd859a_4b_122e6
 dark-theme:262.v0202a_4c8fb_6a
 data-tables-api:1.12.1-4
@@ -154,7 +154,7 @@ windows-azure-storage:380.va3a027b784f4
 workflow-aggregator:590.v6a_d052e5a_a_b_5
 workflow-api:1200.v8005c684b_a_c6
 workflow-basic-steps:994.vd57e3ca_46d24
-workflow-cps:3520.va_8fc49e2f96f
+workflow-cps:3536.vb_8a_6628079d5
 workflow-durable-task-step:1210.va_1e5d77e122b
 workflow-job:1254.v3f64639b_11dd
 workflow-multibranch:716.vc692a_e52371b_
