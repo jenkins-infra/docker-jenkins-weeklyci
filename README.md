@@ -1,6 +1,6 @@
 # docker-jenkins-weekly
 
-[![](https://img.shields.io/docker/pulls/jenkinsciinfra/ldap?label=jenkinsciinfra%2Fjenkins-weekly&logo=docker&logoColor=white)](https://hub.docker.com/r/jenkinsciinfra/jenkins-weekly)
+[![](https://img.shields.io/docker/pulls/jenkinsciinfra/ldap?label=jenkinsciinfra%2Fjenkins-weekly&logo=docker&logoColor=white)](https://hub.docker.com/r/jenkinsciinfra/jenkins-weekly/tags)
 
 A docker image containing the latest jenkins weekly release and plugins.
 
