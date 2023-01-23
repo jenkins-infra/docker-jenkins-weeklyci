@@ -51,7 +51,7 @@ commons-lang3-api:3.12.0-36.vd97de6465d5b_
 commons-text-api:1.10.0-27.vb_fa_3896786a_7
 config-file-provider:3.11.1
 configuration-as-code:1569.vb_72405b_80249
-copyartifact:1.48
+copyartifact:680.vb_9a_ceb_a_d7c98
 credentials:1214.v1de940103927
 credentials-binding:523.vd859a_4b_122e6
 dark-theme:262.v0202a_4c8fb_6a
