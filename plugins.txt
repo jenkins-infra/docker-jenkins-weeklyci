@@ -1,12 +1,12 @@
 ace-editor:1.1
-analysis-model-api:10.22.0
+analysis-model-api:10.23.0
 ansicolor:1.0.2
 antisamy-markup-formatter:155.v795fb_8702324
 apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61
 authentication-tokens:1.4
 aws-credentials:191.vcb_f183ce58b_9
-aws-java-sdk-ec2:1.12.287-357.vf82d85a_6eefd
-aws-java-sdk-minimal:1.12.287-357.vf82d85a_6eefd
+aws-java-sdk-ec2:1.12.397-362.v050e9394cf8e
+aws-java-sdk-minimal:1.12.397-362.v050e9394cf8e
 azure-container-agents:253.vd2f5cd5c5040
 azure-credentials:242.vb_f9c4fa_6b_2b_6
 azure-sdk:118.v43f74dd9ca_dc
@@ -51,7 +51,7 @@ commons-lang3-api:3.12.0-36.vd97de6465d5b_
 commons-text-api:1.10.0-27.vb_fa_3896786a_7
 config-file-provider:3.11.1
 configuration-as-code:1569.vb_72405b_80249
-copyartifact:684.vde867d759462
+copyartifact:686.v6fd37018d7c2
 credentials:1214.v1de940103927
 credentials-binding:523.vd859a_4b_122e6
 dark-theme:262.v0202a_4c8fb_6a
@@ -82,7 +82,7 @@ htmlpublisher:1.31
 inline-pipeline:1.0.2
 instance-identity:142.v04572ca_5b_265
 ionicons-api:31.v4757b_6987003
-jackson2-api:2.14.1-313.v504cdd45c18b
+jackson2-api:2.14.2-319.v37853346a_229
 jacoco:3.3.2
 jakarta-activation-api:2.0.1-2
 jakarta-mail-api:2.0.1-2
