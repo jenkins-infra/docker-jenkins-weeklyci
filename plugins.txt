@@ -109,7 +109,7 @@ matrix-auth:3.1.6
 matrix-project:785.v06b_7f47b_c631
 metrics:4.2.13-420.vea_2f17932dd6
 node-iterator-api:49.v58a_8b_35f8363
-okhttp-api:4.9.3-108.v0feda04578cf
+okhttp-api:4.10.0-117.vf786fdfa_22c0
 pipeline-build-step:2.18
 pipeline-github:2.8-138.d766e30bb08b
 pipeline-graph-analysis:202.va_d268e64deb_3
