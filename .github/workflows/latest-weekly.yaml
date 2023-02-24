@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Jenkins Weekly version
         id: update
-        uses: jenkins-infra/jenkins-version@f7169071ddca27403a722c13815f6c6c593da62a # 0.3.1
+        uses: jenkins-infra/jenkins-version@0.3.1
         with:
           version-identifier: latest
       - name: Process Version
