@@ -29,7 +29,7 @@ mv plugins2.txt plugins.txt
 git diff  -p --stat plugins.txt | sed -r 's/-#/ #/' | sed -r 's/@@ -([0-9]+),([0-9]+) \+([0-9]+),[0-9]+/@@ -\1,\2 +\3,\2/' > patch-plugins-only.txt
 # Restore plugins.txt and apply the modified patch
 git restore plugins.txt
-git apply patch-plugins-only.txt
+git apply patch-plugins-only.txt || cat patch-plugins-only.txt && exit 1
 # Remove the patch
 rm patch-plugins-only.txt
 
