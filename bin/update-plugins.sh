@@ -28,7 +28,7 @@ mv plugins2.txt plugins.txt
 # the second sed fixes the patch by keeping the same amount of context before and after, since plugins are only updated and not removed with this script
 git diff --patch --stat plugins.txt | sed -r 's/-#/ #/' | sed -r 's/@@ -([0-9]+),([0-9]+) \+([0-9]+),[0-9]+/@@ -\1,\2 +\3,\2/' > patch-plugins-only.txt
 # Check if there is at least one line modified in the modified patch
-if grep --extended-regexp --quiet "^-" patch-plugins-only.txt
+if grep --extended-regexp --quiet --ignore-case "^-[a-z0-9]+" patch-plugins-only.txt
 then
   # Restore plugins.txt and apply the modified patch or log its content and exit if it's corrupted
   git restore plugins.txt
