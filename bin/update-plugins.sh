@@ -27,7 +27,7 @@ mv plugins2.txt plugins.txt
 # the first sed removes the comments removal(s) from the patch
 # the second sed fixes the patch by keeping the same amount of context before and after, since plugins are only updated and not removed with this script
 git diff  -p --stat plugins.txt | sed -r 's/-#/ #/' | sed -r 's/@@ -([0-9]+),([0-9]+) \+([0-9]+),[0-9]+/@@ -\1,\2 +\3,\2/' > patch-plugins-only.txt
-# Restore plugins.txt and apply the modified patch
+# Restore plugins.txt and apply the modified patch or log its content and exit if it's corrupted
 git restore plugins.txt
 git apply patch-plugins-only.txt || cat patch-plugins-only.txt && exit 1
 # Remove the patch
