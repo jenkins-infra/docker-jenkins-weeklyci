@@ -23,21 +23,6 @@ java -jar "${TMP_DIR}/jenkins-plugin-manager.jar" -f plugins.txt --available-upd
 
 mv plugins2.txt plugins.txt
 
-## Generate a patch without comments removal(s)
-# the first sed removes the comments removal(s) from the patch
-# the second sed fixes the patch by keeping the same amount of context before and after, since plugins are only updated and not removed with this script
-git diff --patch --stat plugins.txt | sed -r 's/-#/ #/' | sed -r 's/@@ -([0-9]+),([0-9]+) \+([0-9]+),[0-9]+/@@ -\1,\2 +\3,\2/' > patch-plugins-only.txt
-# Restore plugins.txt
-git restore plugins.txt
-# Check if there is at least one line modified in the modified patch
-if grep --extended-regexp --quiet --ignore-case "^-[a-z0-9]+" patch-plugins-only.txt
-then
-  # Apply the modified patch or log its content and exit if it's corrupted
-  git apply patch-plugins-only.txt || cat patch-plugins-only.txt && exit 1
-fi
-# Remove the patch
-rm patch-plugins-only.txt
-
 git diff plugins.txt
 
 echo "Updating plugins complete"
