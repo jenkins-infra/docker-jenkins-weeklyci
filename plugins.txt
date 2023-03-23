@@ -95,10 +95,10 @@ jersey2-api:2.39-1
 jira:3.9
 jjwt-api:0.11.5-77.v646c772fddb_0
 jnr-posix-api:3.1.16-2
-job-dsl:1.82
+job-dsl:1.83
 jsch:0.1.55.61.va_e9ee26616e7
 junit:1189.v1b_e593637fa_e
-kubernetes:3896.v19b_160fd9589
+kubernetes:3900.va_dce992317b_4
 kubernetes-client-api:6.4.1-215.v2ed17097a_8e9
 kubernetes-credentials:0.10.0
 kubernetes-credentials-provider:1.209.v862c6e5fb_1ef
@@ -117,12 +117,12 @@ pipeline-graph-view:175.vb_1a_b_b_cd0fb_86
 pipeline-groovy-lib:629.vb_5627b_ee2104
 pipeline-input-step:466.v6d0a_5df34f81
 pipeline-milestone-step:111.v449306f708b_7
-pipeline-model-api:2.2121.vd87fb_6536d1e
-pipeline-model-definition:2.2121.vd87fb_6536d1e
-pipeline-model-extensions:2.2121.vd87fb_6536d1e
+pipeline-model-api:2.2123.va_31cb_3b_80ef8
+pipeline-model-definition:2.2123.va_31cb_3b_80ef8
+pipeline-model-extensions:2.2123.va_31cb_3b_80ef8
 pipeline-rest-api:2.31
 pipeline-stage-step:305.ve96d0205c1c6
-pipeline-stage-tags-metadata:2.2121.vd87fb_6536d1e
+pipeline-stage-tags-metadata:2.2123.va_31cb_3b_80ef8
 pipeline-stage-view:2.31
 plain-credentials:143.v1b_df8b_d3b_e48
 plugin-util-api:3.1.0
@@ -151,11 +151,10 @@ windows-azure-storage:380.va3a027b784f4
 workflow-aggregator:596.v8c21c963d92d
 workflow-api:1208.v0cc7c6e0da_9e
 workflow-basic-steps:1010.vf7a_b_98e847c1
-# TODO https://github.com/jenkinsci/workflow-durable-task-step-plugin/pull/299
 workflow-cps:3641.vf58904a_b_b_5d8
 workflow-durable-task-step:incrementals;org.jenkins-ci.plugins.workflow;1237.v2eda_b_fda_8592
 workflow-job:1284.v2fe8ed4573d4
 workflow-multibranch:733.v109046189126
-workflow-scm-step:400.v6b_89a_1317c9a_
+workflow-scm-step:408.v7d5b_135a_b_d49
 workflow-step-api:639.v6eca_cd8c04a_a_
 workflow-support:839.v35e2736cfd5c
