@@ -52,11 +52,11 @@ config-file-provider:3.11.1
 configuration-as-code:1625.v27444588cc3d
 copyartifact:686.v6fd37018d7c2
 credentials:1224.vc23ca_a_9a_2cb_0
-credentials-binding:523.vd859a_4b_122e6
+credentials-binding:604.vb_64480b_c56ca_
 dark-theme:315.va_22e7d692ea_a
 data-tables-api:1.13.3-3
 datadog:5.4.0
-design-library:235.v0ce1234e6da_f
+design-library:236.v588209fb_89ef
 display-url-api:2.3.7
 docker-commons:419.v8e3cd84ef49c
 durable-task:504.vb10d1ae5ba2f
@@ -98,7 +98,7 @@ jnr-posix-api:3.1.16-2
 job-dsl:1.83
 jsch:0.1.55.61.va_e9ee26616e7
 junit:1189.v1b_e593637fa_e
-kubernetes:3909.v1f2c633e8590
+kubernetes:3910.ve59cec5e33ea_
 kubernetes-client-api:6.4.1-215.v2ed17097a_8e9
 kubernetes-credentials:0.10.0
 kubernetes-credentials-provider:1.211.vc236a_f5a_2f3c
