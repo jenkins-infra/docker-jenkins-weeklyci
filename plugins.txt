@@ -1,4 +1,4 @@
-analysis-model-api:11.1.0
+analysis-model-api:11.2.0
 ansicolor:1.0.2
 antisamy-markup-formatter:159.v25b_c67cd35fb_
 apache-httpcomponents-client-4-api:4.5.14-150.v7a_b_9d17134a_5
@@ -9,7 +9,7 @@ aws-java-sdk-minimal:1.12.447-382.vda_68e2007233
 azure-container-agents:253.vd2f5cd5c5040
 azure-credentials:254.v64da_8176c83a
 azure-sdk:132.v62b_48eb_6f32f
-azure-vm-agents:846.v5a_f7e3dce959
+azure-vm-agents:851.v16b_dcb_e85c85
 basic-branch-build-strategies:71.vc1421f89888e
 blueocean:1.27.3
 blueocean-autofavorite:1.2.5
@@ -32,7 +32,7 @@ blueocean-pipeline-scm-api:1.27.3
 blueocean-rest:1.27.3
 blueocean-rest-impl:1.27.3
 blueocean-web:1.27.3
-bootstrap5-api:5.2.2-2
+bootstrap5-api:5.2.2-3
 bouncycastle-api:2.27
 branch-api:2.1071.v1a_188a_562481
 build-name-setter:2.2.0
@@ -59,7 +59,7 @@ datadog:5.4.0
 design-library:237.v18384c2f41db
 display-url-api:2.3.7
 docker-commons:419.v8e3cd84ef49c
-durable-task:504.vb10d1ae5ba2f
+durable-task:506.v1b_3e14b_6f5da_
 ec2:2.0.7
 echarts-api:5.4.0-3
 extended-read-permission:3.2
@@ -96,7 +96,7 @@ jira:3.9
 jjwt-api:0.11.5-77.v646c772fddb_0
 jnr-posix-api:3.1.16-2
 job-dsl:1.83
-jsch:0.1.55.61.va_e9ee26616e7
+jsch:0.2.8-65.v052c39de79b_2
 junit:1198.ve38db_d1b_c975
 kubernetes:3923.v294a_d4250b_91
 kubernetes-client-api:6.4.1-215.v2ed17097a_8e9
@@ -113,16 +113,16 @@ okhttp-api:4.10.0-132.v7a_7b_91cef39c
 pipeline-build-step:491.v1fec530da_858
 pipeline-github:2.8-147.3206e8179b1c
 pipeline-graph-analysis:202.va_d268e64deb_3
-pipeline-graph-view:183.v9e27732d970f
+pipeline-graph-view:190.vb_6fdf3c1ccfa
 pipeline-groovy-lib:656.va_a_ceeb_6ffb_f7
 pipeline-input-step:468.va_5db_051498a_4
 pipeline-milestone-step:111.v449306f708b_7
-pipeline-model-api:2.2125.vddb_a_44a_d605e
-pipeline-model-definition:2.2125.vddb_a_44a_d605e
-pipeline-model-extensions:2.2125.vddb_a_44a_d605e
+pipeline-model-api:2.2131.vb_9788088fdb_5
+pipeline-model-definition:2.2131.vb_9788088fdb_5
+pipeline-model-extensions:2.2131.vb_9788088fdb_5
 pipeline-rest-api:2.32
 pipeline-stage-step:305.ve96d0205c1c6
-pipeline-stage-tags-metadata:2.2125.vddb_a_44a_d605e
+pipeline-stage-tags-metadata:2.2131.vb_9788088fdb_5
 pipeline-stage-view:2.32
 plain-credentials:143.v1b_df8b_d3b_e48
 plugin-util-api:3.2.0
@@ -138,9 +138,9 @@ ssh-agent:333.v878b_53c89511
 ssh-credentials:305.v8f4381501156
 sshd:3.275.v9e17c10f2571
 structs:324.va_f5d6774f3a_d
-support-core:1274.v097a_073e7733
+support-core:1278.vf26a_78c372f1
 theme-manager:193.vcef22f6c5f2b_
-timestamper:1.24
+timestamper:1.25
 token-macro:359.vb_cde11682e0c
 toolenv:1.2
 trilead-api:2.84.v72119de229b_7
