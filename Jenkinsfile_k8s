@@ -1,3 +1,5 @@
+properties([buildDiscarder(logRotator(daysToKeepStr: '15'))])
+
 buildDockerAndPublishImage('jenkins-weekly', [
     useContainer: false,
     automaticSemanticVersioning: true,
