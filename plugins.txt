@@ -53,6 +53,7 @@ configuration-as-code:1625.v27444588cc3d
 copyartifact:705.v5295cffec284
 credentials:1254.vb_96f366e7b_a_d
 credentials-binding:604.vb_64480b_c56ca_
+customizable-header:10.vb_a_4dc40fd7ea_
 dark-theme:315.va_22e7d692ea_a
 data-tables-api:1.13.3-4
 datadog:5.4.0
