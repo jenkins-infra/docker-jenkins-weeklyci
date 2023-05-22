@@ -33,7 +33,7 @@ blueocean-rest:1.27.4
 blueocean-rest-impl:1.27.4
 blueocean-web:1.27.4
 bootstrap5-api:5.2.2-4
-bouncycastle-api:2.27
+bouncycastle-api:2.28
 branch-api:2.1092.vda_3c2a_a_f0c11
 build-name-setter:2.2.0
 buildtriggerbadge:251.vdf6ef853f3f5
@@ -81,7 +81,7 @@ handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953
 htmlpublisher:1.31
 inline-pipeline:1.0.2
 instance-identity:142.v04572ca_5b_265
-ionicons-api:55.vdc6562f64de3
+ionicons-api:56.v1b_1c8c49374e
 jackson2-api:2.15.1-344.v6eb_55303dc3e
 jacoco:3.3.3
 jakarta-activation-api:2.0.1-3
