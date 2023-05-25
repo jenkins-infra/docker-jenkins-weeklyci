@@ -61,7 +61,6 @@ design-library:237.v18384c2f41db
 display-url-api:2.3.7
 docker-commons:419.v8e3cd84ef49c
 durable-task:507.v050055d0cb_dd
-ec2:2.0.7
 echarts-api:5.4.0-4
 extended-read-permission:53.v6499940139e5
 favorite:2.4.2
