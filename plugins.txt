@@ -98,7 +98,7 @@ jnr-posix-api:3.1.16-2
 job-dsl:1.83
 jsch:0.2.8-65.v052c39de79b_2
 junit:1202.v79a_986785076
-kubernetes:3923.v294a_d4250b_91
+kubernetes:3937.vd7b_82db_e347b_
 kubernetes-client-api:6.4.1-215.v2ed17097a_8e9
 kubernetes-credentials:0.10.0
 kubernetes-credentials-provider:1.211.vc236a_f5a_2f3c
