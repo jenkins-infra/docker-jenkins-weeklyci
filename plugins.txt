@@ -56,7 +56,7 @@ credentials-binding:604.vb_64480b_c56ca_
 customizable-header:16.v46d4fb_fd1722
 dark-theme:336.v02165cd8c2ee
 data-tables-api:1.13.4-3
-datadog:5.4.1
+datadog:5.4.2
 design-library:246.v56ed5958177c
 display-url-api:2.3.7
 docker-commons:439.va_3cb_0a_6a_fb_29
