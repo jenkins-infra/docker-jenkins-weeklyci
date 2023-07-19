@@ -40,9 +40,9 @@ buildtriggerbadge:251.vdf6ef853f3f5
 caffeine-api:3.1.6-115.vb_8b_b_328e59d8
 checks-api:2.0.0
 cloud-stats:302.v45b_647b_90608
-cloudbees-bitbucket-branch-source:820.v30b_e8c1e36f3
+cloudbees-bitbucket-branch-source:825.va_6a_dc46a_f97d
 cloudbees-folder:6.815.v0dd5a_cb_40e0e
-cloudbees-jenkins-advisor:336.v4d00382fe22c
+cloudbees-jenkins-advisor:340.v336f61c216f6
 cobertura:1.17
 code-coverage-api:4.7.0
 command-launcher:100.v2f6722292ee8
@@ -55,7 +55,7 @@ credentials:1254.vb_96f366e7b_a_d
 credentials-binding:604.vb_64480b_c56ca_
 customizable-header:16.v46d4fb_fd1722
 dark-theme:336.v02165cd8c2ee
-data-tables-api:1.13.4-3
+data-tables-api:1.13.5-1
 datadog:5.4.2
 design-library:246.v56ed5958177c
 display-url-api:2.3.7
@@ -64,7 +64,7 @@ durable-task:510.v324450f8dca_4
 echarts-api:5.4.0-5
 extended-read-permission:53.v6499940139e5
 favorite:2.4.2
-font-awesome-api:6.4.0-1
+font-awesome-api:6.4.0-2
 forensics-api:2.3.0
 git:5.2.0
 git-client:4.4.0
@@ -105,7 +105,7 @@ kubernetes-credentials-provider:1.225.v14f9e6b_28f53
 ldap:682.v7b_544c9d1512
 lockable-resources:1172.v4b_8fc8eed570
 mailer:457.v3f72cb_e015e5
-matrix-auth:3.1.9
+matrix-auth:3.1.10
 matrix-project:789.v57a_725b_63c79
 metrics:4.2.18-439.v86a_20b_a_8318b_
 node-iterator-api:49.v58a_8b_35f8363
@@ -117,12 +117,12 @@ pipeline-graph-view:191.vc6da_9d3eb_70a
 pipeline-groovy-lib:656.va_a_ceeb_6ffb_f7
 pipeline-input-step:468.va_5db_051498a_4
 pipeline-milestone-step:111.v449306f708b_7
-pipeline-model-api:2.2141.v5402e818a_779
-pipeline-model-definition:2.2141.v5402e818a_779
-pipeline-model-extensions:2.2141.v5402e818a_779
+pipeline-model-api:2.2144.v077a_d1928a_40
+pipeline-model-definition:2.2144.v077a_d1928a_40
+pipeline-model-extensions:2.2144.v077a_d1928a_40
 pipeline-rest-api:2.33
 pipeline-stage-step:305.ve96d0205c1c6
-pipeline-stage-tags-metadata:2.2141.v5402e818a_779
+pipeline-stage-tags-metadata:2.2144.v077a_d1928a_40
 pipeline-stage-view:2.33
 plain-credentials:143.v1b_df8b_d3b_e48
 plugin-util-api:3.3.0
@@ -149,7 +149,7 @@ windows-azure-storage:386.v673495b0a5de
 workflow-aggregator:596.v8c21c963d92d
 workflow-api:1232.v1679fa_2f0f76
 workflow-basic-steps:1017.vb_45b_302f0cea_
-workflow-cps:3705.va_6a_c2775a_c17
+workflow-cps:3717.va_180a_fe9d3cd
 workflow-durable-task-step:1247.v7f9dfea_b_4fd0
 workflow-job:1316.vd2290d3341a_f
 workflow-multibranch:756.v891d88f2cd46
