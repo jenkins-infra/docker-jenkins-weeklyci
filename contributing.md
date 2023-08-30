@@ -2,38 +2,41 @@
 
 This document outlines the process to update the docker images.
 
-## scheduling
-### For a recurring plugin update with no core
-This can happend anytime, but make sure not to bump within a security of LTS release period.
+## Scheduling
 
-### For a Core + Plugins update once a week after the weekly release on Tuesday
-This should happend on wednesday morning (Paris time)
+### For Plugin Update without Core Update
 
-## Common process
-for each plugin proposed for update we need to get the direct link to the changelog, for example for plugin `Matrix Authorization Strategy` the https://plugins.jenkins.io website bring the page `https://plugins.jenkins.io/matrix-auth/` where we can use either the release tab on top or the github link on the right : https://github.com/jenkinsci/matrix-auth-plugin
-from there we get the specific release https://github.com/jenkinsci/matrix-auth-plugin/releases/tag/matrix-auth-3.2 this link is added in the PR review and we add a specific message to warn about the BREAKING change 💥 Major Changes 💥
+It can happen at anytime, but avoid merging during a security advisory or LTS Core release period.
 
-the PR approuval comment might then looks like this :
+### For a Core Update (With or without Plugins Update)
 
-- https://github.com/jenkinsci/aws-credentials-plugin/releases/tag/218.v1b_e9466ec5da_
-- https://github.com/jenkinsci/inline-pipeline-plugin/releases/tag/inline-pipeline-1.0.3
-- https://github.com/jenkinsci/kubernetes-plugin/releases/tag/4029.v5712230ccb_f8
-- https://github.com/jenkinsci/kubernetes-client-api-plugin/releases/tag/6.8.1-224.vd388fca_4db_3b_
+- Default: Every Wednesday on mornings (Paris time)
+  - Caused by the weekly core release happening on Tuesdays
 
-      💥 Breaking changes
-```
-    Kubernetes-client 6.8.1 comes with a number of breaking changes that downstream plugins must adapt to. As Jenkins users, please don't upgrade to this new version until all plugin consumers have released a new version claiming compatibility. The list of compatible plugins will be posted below when available.
-```
-- https://github.com/jenkinsci/kubernetes-credentials-plugin/compare/kubernetes-credentials-0.10.0...kubernetes-credentials-0.11
-- https://github.com/jenkinsci/matrix-auth-plugin/releases/tag/matrix-auth-3.2
-     ⚠️💥 Major Changes 💥
-```
-This release changes the syntax for configuring permissions with [Configuration as Code](https://plugins.jenkins.io/configuration-as-code/), [Job DSL](https://plugins.jenkins.io/job-dsl/), and [Pipeline](https://plugins.jenkins.io/workflow-aggregator/) plugins (https://github.com/jenkinsci/matrix-auth-plugin/pull/145, https://github.com/jenkinsci/matrix-auth-plugin/pull/144)
+- Delayed on Wednesday evenings (Paris time) or even Thursday when there is a LTS Core release / security advisory 
 
-Warning
-This is a breaking change for anyone currently configuring matrix authorization using these plugins.
+## Common Process
 
-In all three cases, the permissions list has been replaced with the entries list and a more elaborate element syntax decoupled from the serialized XML configuration format. See examples below for the new syntax.
-```
+For each plugin proposed for update we need to:
 
-- https://github.com/jenkinsci/workflow-api-plugin/releases/tag/1267.vd9b_a_ddd9eb_47
+- Get the direct link to the changelog from the [plugins.jenkins.io website](https://plugins.jenkins.io): seardch for the plugin to get to the a top "Release" tab, locate the version and retrieve the permalink (usually a GitHub release) 
+  - For instance with the plugin `Matrix Authorization Strategy` (https://plugins.jenkins.io/matrix-auth/), with version 3.2, you get the following link: https://github.com/jenkinsci/matrix-auth-plugin/releases/tag/matrix-auth-3.2
+
+- If this plugin version changelog has a breaking or "💥 Major Changes 💥" change, add this link with a message mentioning the breaking change as a PR comment
+
+Example of a PR approval comment:
+
+
+```text
+- 💥 Breaking changes on https://github.com/jenkinsci/kubernetes-client-api-plugin/releases/tag/6.8.1-224.vd388fca_4db_3b_:
+
+>  Kubernetes-client 6.8.1 comes with a number of breaking changes that downstream plugins must adapt to. As Jenkins users, please don't upgrade to this new version until all plugin consumers have released a new version claiming compatibility. The list of compatible plugins will be posted below when available.
+
+- ⚠️💥 Major Changes 💥 on https://github.com/jenkinsci/matrix-auth-plugin/releases/tag/matrix-auth-3.2:
+   
+> This release changes the syntax for configuring permissions with [Configuration as Code](https://plugins.jenkins.io/configuration-as-code/), [Job DSL](https://plugins.jenkins.io/job-dsl/), and [Pipeline](https://plugins.jenkins.io/workflow-aggregator/) plugins (https://github.com/jenkinsci/matrix-auth-plugin/pull/145, https://github.com/jenkinsci/matrix-auth-plugin/pull/144)
+> 
+> Warning
+> This is a breaking change for anyone currently configuring matrix authorization using these plugins.
+> 
+> In all three cases, the permissions list has been replaced with the entries list and a more elaborate element > syntax decoupled from the serialized XML configuration format. See examples below for the new syntax.
