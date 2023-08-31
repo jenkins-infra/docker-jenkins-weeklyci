@@ -40,3 +40,5 @@ Example of a PR approval comment:
 > This is a breaking change for anyone currently configuring matrix authorization using these plugins.
 > 
 > In all three cases, the permissions list has been replaced with the entries list and a more elaborate element > syntax decoupled from the serialized XML configuration format. See examples below for the new syntax.
+```
+
