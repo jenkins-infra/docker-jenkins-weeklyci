@@ -41,10 +41,10 @@ caffeine-api:3.1.8-133.v17b_1ff2e0599
 checks-api:2.0.2
 cloud-stats:320.v96b_65297a_4b_b_
 cloudbees-bitbucket-branch-source:848.v42c6a_317eda_e
-cloudbees-folder:6.848.ve3b_fd7839a_81
+cloudbees-folder:6.858.v898218f3609d
 cloudbees-jenkins-advisor:358.v58972d19b_1f0
 cobertura:1.17
-code-coverage-api:4.9.0
+code-coverage-api:4.10.0
 command-launcher:107.v773860566e2e
 commons-lang3-api:3.13.0-62.v7d18e55f51e2
 commons-text-api:1.10.0-78.v3e7b_ea_d5a_fe1
@@ -53,7 +53,7 @@ configuration-as-code:1714.v09593e830cfa
 copyartifact:722.v0662a_9b_e22a_c
 credentials:1293.vff276f713473
 credentials-binding:636.v55f1275c7b_27
-customizable-header:30.v9a_f046da_53c8
+customizable-header:40.v2e0e4f17e70c
 dark-theme:372.v79b_02c754b_29
 data-tables-api:1.13.6-5
 datadog:5.5.1
@@ -101,7 +101,7 @@ junit:1240.vf9529b_881428
 kubernetes:4054.v2da_8e2794884
 kubernetes-client-api:6.8.1-224.vd388fca_4db_3b_
 kubernetes-credentials:0.11
-kubernetes-credentials-provider:1.238.v637de1db_9e80
+kubernetes-credentials-provider:1.258.v95949f923a_a_e
 ldap:701.vf8619de9160a_
 lockable-resources:1185.v0c528656ce04
 mailer:463.vedf8358e006b_
@@ -129,7 +129,7 @@ plugin-util-api:3.6.0
 prism-api:1.29.0-8
 pubsub-light:1.17
 scm-api:676.v886669a_199a_a_
-scm-filter-branch-pr:77.vf2b_85e1970d5
+scm-filter-branch-pr:115.v4705a_3a_4df58
 script-security:1275.v23895f409fb_d
 snakeyaml-api:2.2-111.vc6598e30cc65
 sse-gateway:1.26
