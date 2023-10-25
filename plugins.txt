@@ -69,7 +69,7 @@ forensics-api:2.3.0
 git:5.2.0
 git-client:4.5.0
 git-forensics:2.0.0
-github:1.37.3
+github:1.37.3.1
 github-api:1.316-451.v15738eef3414
 github-autostatus:3.6.2
 github-branch-source:1741.va_3028eb_9fd21
@@ -95,7 +95,7 @@ jersey2-api:2.41-133.va_03323b_a_1396
 jira:3.11
 jjwt-api:0.11.5-77.v646c772fddb_0
 jnr-posix-api:3.1.18-1
-job-dsl:1.86
+job-dsl:1.87
 jsch:0.2.8-65.v052c39de79b_2
 junit:1240.vf9529b_881428
 kubernetes:4110.v2d7ceb_d59c53
@@ -144,7 +144,7 @@ token-macro:384.vf35b_f26814ec
 toolenv:1.2
 trilead-api:2.84.v72119de229b_7
 variant:60.v7290fc0eb_b_cd
-warnings-ng:10.5.0
+warnings-ng:10.5.1
 windows-azure-storage:386.v673495b0a5de
 workflow-aggregator:596.v8c21c963d92d
 workflow-api:1283.v99c10937efcb_
