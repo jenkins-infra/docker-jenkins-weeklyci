@@ -19,12 +19,19 @@ wget --no-verbose "https://get.jenkins.io/war/${CURRENT_JENKINS_VERSION}/jenkins
 
 cd ../ || exit 1
 
-java -jar "${TMP_DIR}/jenkins-plugin-manager.jar" -f plugins.txt --available-updates --output txt --war "${TMP_DIR}/jenkins.war"  > plugins2.txt
+# Iterate through each txt file starting with "plugins-"
+for pluginfile in "$directory"/plugins-*.txt; do
+    if [ -e "${pluginfile}" ]; then
+        echo "Updating plugins file: ${pluginfile}"
 
-mv plugins2.txt plugins.txt
+        java -jar "${TMP_DIR}/jenkins-plugin-manager.jar" -f "${pluginfile}" --available-updates --output txt --war "${TMP_DIR}/jenkins.war"  > plugins2.txt
 
-git diff plugins.txt
+        mv plugins2.txt "${pluginfile}"
 
-echo "Updating plugins complete"
+        git diff "${pluginfile}"
+    fi
+done
 
 rm -rf "${TMP_DIR}"
+
+echo "Updating plugins complete"
