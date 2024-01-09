@@ -20,7 +20,7 @@ wget --no-verbose "https://get.jenkins.io/war/${CURRENT_JENKINS_VERSION}/jenkins
 cd ../ || exit 1
 
 # Iterate through each txt file starting with "plugins-"
-for pluginfile in "$directory"/plugins-*.txt; do
+for pluginfile in plugins-*.txt; do
     if [ -e "${pluginfile}" ]; then
         echo "Updating plugins file: ${pluginfile}"
 
