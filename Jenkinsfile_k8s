@@ -1,10 +1,10 @@
 properties([buildDiscarder(logRotator(daysToKeepStr: '15'))])
 
-buildDockerAndPublishImage('jenkins-weekly', [
+buildDockerAndPublishImage('jenkins', [
     useContainer: false,
     automaticSemanticVersioning: true,
     gitCredentials: 'github-app-infra',
     targetplatforms: 'linux/amd64,linux/arm64',
-    nextVersionCommand: 'echo "$(jx-release-version -next-version=semantic:strip-prerelease)-$(grep "FROM jenkins" Dockerfile | cut -d: -f2 | cut -d- -f1)"',
+    nextVersionCommand: 'echo "$(jx-release-version -next-version=semantic:strip-prerelease)"',
     dockerBakeFile: 'docker-bake.hcl',
 ])
