@@ -20,6 +20,7 @@ target "infra-ci" {
   platforms = ["linux/amd64", "linux/arm64"]
   tags = [
     "${REGISTRY}/${IMAGE_DEPLOY_NAME}:latest",
+    "${REGISTRY}/${IMAGE_DEPLOY_NAME}:latest-infra-ci",
     notequal("", TAG_NAME) ? "${REGISTRY}/${IMAGE_DEPLOY_NAME}:${TAG_NAME}" : ""
   ]
 }
@@ -30,7 +31,7 @@ target "weekly-ci" {
     PLUGINS_FILE = "plugins-weekly.ci.jenkins.io.txt",
   }
   tags = [
-    "${REGISTRY}/${IMAGE_DEPLOY_NAME}:latest-weeklyci",
+    "${REGISTRY}/${IMAGE_DEPLOY_NAME}:latest-weekly-ci",
     notequal("", TAG_NAME) ? "${REGISTRY}/${IMAGE_DEPLOY_NAME}:${TAG_NAME}-weeklyci" : ""
   ]
 }
