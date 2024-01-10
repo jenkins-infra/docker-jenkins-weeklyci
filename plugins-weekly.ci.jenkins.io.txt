@@ -25,6 +25,7 @@ coverage:1.7.0
 command-launcher:107.v773860566e2e
 commons-lang3-api:3.13.0-62.v7d18e55f51e2
 commons-text-api:1.11.0-95.v22a_d30ee5d36
+config-file-provider:959.vcff671a_4518b_
 configuration-as-code:1763.vb_fe9c1b_83f7b
 copyartifact:722.v0662a_9b_e22a_c
 credentials:1311.vcf0a_900b_37c2
@@ -39,6 +40,7 @@ docker-commons:439.va_3cb_0a_6a_fb_29
 durable-task:523.va_a_22cf15d5e0
 echarts-api:5.4.3-2
 extended-read-permission:53.v6499940139e5
+favorite:2.208.v91d65b_7792a_c
 font-awesome-api:6.5.1-1
 forensics-api:2.3.0
 git:5.2.1
