@@ -21,7 +21,7 @@ target "infra-ci" {
   tags = [
     "${REGISTRY}/${IMAGE_DEPLOY_NAME}:latest",
     "${REGISTRY}/${IMAGE_DEPLOY_NAME}:latest-infra-ci",
-    notequal("", TAG_NAME) ? "${REGISTRY}/${IMAGE_DEPLOY_NAME}:${TAG_NAME}" : ""
+    notequal("", TAG_NAME) ? "${REGISTRY}/${IMAGE_DEPLOY_NAME}:${TAG_NAME}" : "",
     notequal("", TAG_NAME) ? "${REGISTRY}/${IMAGE_DEPLOY_NAME}:${TAG_NAME}-infra-ci" : ""
   ]
 }
