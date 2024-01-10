@@ -14,7 +14,6 @@ basic-branch-build-strategies:81.v05e333931c7d
 bootstrap5-api:5.3.2-3
 bouncycastle-api:2.30.1.77-225.v26ea_c9455fd9
 branch-api:2.1135.v8de8e7899051
-build-name-setter:2.4.0
 buildtriggerbadge:251.vdf6ef853f3f5
 caffeine-api:3.1.8-133.v17b_1ff2e0599
 checks-api:2.0.2
@@ -54,7 +53,6 @@ github-checks:554.vb_ee03a_000f65
 github-label-filter:1.0.0
 groovy:457.v99900cb_85593
 handy-uri-templates-2-api:2.1.8-30.v7e777411b_148
-htmlpublisher:1.32
 inline-pipeline:1.0.3
 instance-identity:185.v303dc7c645f9
 ionicons-api:56.v1b_1c8c49374e
@@ -66,7 +64,6 @@ javax-mail-api:1.6.2-9
 jaxb:2.3.9-1
 jdk-tool:73.vddf737284550
 jersey2-api:2.41-133.va_03323b_a_1396
-jira:3.12
 jjwt-api:0.11.5-77.v646c772fddb_0
 jnr-posix-api:3.1.18-1
 job-dsl:1.87
@@ -77,7 +74,6 @@ kubernetes-client-api:6.8.1-224.vd388fca_4db_3b_
 kubernetes-credentials:0.11
 kubernetes-credentials-provider:1.258.v95949f923a_a_e
 ldap:711.vb_d1a_491714dc
-lockable-resources:1218.va_3dd45e2b_fa_7
 mailer:463.vedf8358e006b_
 matrix-auth:3.2.1
 matrix-project:822.v01b_8c85d16d2
