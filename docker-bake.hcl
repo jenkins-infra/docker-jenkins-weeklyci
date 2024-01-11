@@ -34,3 +34,4 @@ target "weekly-ci" {
     notequal("", TAG_NAME) ? "${REGISTRY}/${IMAGE_DEPLOY_NAME}:${TAG_NAME}-weeklyci" : ""
   ]
 }
+
