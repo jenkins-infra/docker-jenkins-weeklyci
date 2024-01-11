@@ -5,6 +5,7 @@
 A docker image containing the latest jenkins weekly release and plugins.
 
 By default it's built with infra.ci.jenkins.io in mind, but there is a variant for weekly.ci.jenkins.io with fewer plugins (defined in plugins-weekly.ci.jenkins.io.txt).
+
 To use this variant, add `-weeklyci` as suffix to the tag, ex: `jenkinsciinfra/jenkins-weekly:1.2.3-weeklyci`
 
 ## Updating Plugins
