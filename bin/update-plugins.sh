@@ -2,6 +2,11 @@
 
 set -ex
 
+list="plugins-*.txt"
+if [[ "$#" -eq 1 ]]; then
+    list=$1
+fi
+
 cd "$(dirname "$0")" || exit 1
 
 echo "Updating plugins"
@@ -19,8 +24,8 @@ wget --no-verbose "https://get.jenkins.io/war/${CURRENT_JENKINS_VERSION}/jenkins
 
 cd ../ || exit 1
 
-# Iterate through each txt file starting with "plugins-"
-for pluginfile in plugins-*.txt; do
+# Iterate through each txt file starting with "plugins-", or the file specified as input
+for pluginfile in ${list}; do
     if [ -e "${pluginfile}" ]; then
         echo "Updating plugins file: ${pluginfile}"
 
