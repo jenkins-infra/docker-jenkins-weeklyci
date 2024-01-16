@@ -18,28 +18,50 @@ jobs:
           distribution: 'temurin'
           java-version: 17
 
-      - run: echo "::set-output name=stdout::$(./bin/update-plugins.sh)\n"
-        id: update-plugins
-        name: Update plugins
-
       - uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a
         id: generate-token
         with:
           app_id: ${{ secrets.JENKINS_ADMIN_APP_ID }}
           private_key: ${{ secrets.JENKINS_ADMIN_APP_PRIVKEY }}
 
-      - name: Create Pull Request
-        id: cpr
+      - run: echo "::set-output name=stdout::$(./bin/update-plugins.sh plugins-infra.ci.jenkins.io.txt)\n"
+        id: update-infra-ci-plugins
+        name: Update infra-ci plugins
+
+      - name: Create infra.ci.jenkins.io Pull Request
+        id: cpr-infra-ci
         uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38 #v5
         with:
-          commit-message: 'chore(deps): update plugins'
+          commit-message: 'chore(deps): update infra.ci.jenkins.io plugins'
           signoff: false
-          title: 'chore(deps): update plugins'
+          title: 'chore(deps): update infra.ci.jenkins.io plugins'
           author: jenkins-infra-updatecli[bot] <178728+jenkins-infra-updatecli[bot]@users.noreply.github.com>
           committer: jenkins-infra-updatecli[bot] <178728+jenkins-infra-updatecli[bot]@users.noreply.github.com>
-          branch: update-plugins
+          branch: update-infra-ci-plugins
           token: ${{ steps.generate-token.outputs.token }}
-          labels: dependencies,plugins
+          labels: dependencies,infra-ci-plugins
+          body: |
+            Changes:
+            ```diff
+            ${{ steps.update-plugins.outputs.stdout }}
+            ```
+
+      - run: echo "::set-output name=stdout::$(./bin/update-plugins.sh plugins-weekly.ci.jenkins.io.txt)\n"
+        id: update-weekly-ci-plugins
+        name: Update weekly-ci plugins
+    
+      - name: Create weekly.ci.jenkins.io Pull Request
+        id: cpr-weekly-ci
+        uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38 #v5
+        with:
+          commit-message: 'chore(deps): update weekly.ci.jenkins.io plugins'
+          signoff: false
+          title: 'chore(deps): update weekly.ci.jenkins.io plugins'
+          author: jenkins-infra-updatecli[bot] <178728+jenkins-infra-updatecli[bot]@users.noreply.github.com>
+          committer: jenkins-infra-updatecli[bot] <178728+jenkins-infra-updatecli[bot]@users.noreply.github.com>
+          branch: update-weekly-ci-plugins
+          token: ${{ steps.generate-token.outputs.token }}
+          labels: dependencies,weekly-ci-plugins
           body: |
             Changes:
             ```diff
