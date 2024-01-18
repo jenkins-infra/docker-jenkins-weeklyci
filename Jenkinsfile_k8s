@@ -14,7 +14,6 @@ pipeline {
                     if (target) {
                         echo "= Building ${target} target"
                         buildDockerAndPublishImage('jenkins-weekly', [
-                            useContainer: false,
                             automaticSemanticVersioning: true,
                             gitCredentials: 'github-app-infra',
                             targetplatforms: 'linux/amd64,linux/arm64',
