@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.442-jdk17
+FROM jenkins/jenkins:2.443-jdk17
 
 ARG PLUGINS_FILE=plugins-infra.ci.jenkins.io.txt
 COPY logos /usr/share/jenkins/ref/userContent/logos
