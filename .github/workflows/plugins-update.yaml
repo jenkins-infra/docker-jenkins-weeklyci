@@ -18,7 +18,7 @@ jobs:
           distribution: 'temurin'
           java-version: 17
 
-      - uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a
+      - uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2.1.0
         id: generate-token
         with:
           app_id: ${{ secrets.JENKINS_ADMIN_APP_ID }}
@@ -30,7 +30,7 @@ jobs:
 
       - name: Create infra.ci.jenkins.io Pull Request
         id: cpr-infra-ci
-        uses: peter-evans/create-pull-request@b1ddad2c994a25fbc81a28b3ec0e368bb2021c50 #v5
+        uses: peter-evans/create-pull-request@b1ddad2c994a25fbc81a28b3ec0e368bb2021c50 #v6.0.0
         with:
           commit-message: 'chore(deps): update infra.ci.jenkins.io plugins'
           signoff: false
@@ -49,10 +49,10 @@ jobs:
       - run: echo "::set-output name=stdout::$(./bin/update-plugins.sh plugins-weekly.ci.jenkins.io.txt)\n"
         id: update-weekly-ci-plugins
         name: Update weekly-ci plugins
-    
+
       - name: Create weekly.ci.jenkins.io Pull Request
         id: cpr-weekly-ci
-        uses: peter-evans/create-pull-request@b1ddad2c994a25fbc81a28b3ec0e368bb2021c50 #v5
+        uses: peter-evans/create-pull-request@b1ddad2c994a25fbc81a28b3ec0e368bb2021c50 #v6.0.0
         with:
           commit-message: 'chore(deps): update weekly.ci.jenkins.io plugins'
           signoff: false
