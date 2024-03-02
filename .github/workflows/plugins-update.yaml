@@ -24,9 +24,9 @@ jobs:
           app_id: ${{ secrets.JENKINS_ADMIN_APP_ID }}
           private_key: ${{ secrets.JENKINS_ADMIN_APP_PRIVKEY }}
 
-      - run: echo "::set-output name=stdout::$(./bin/update-plugins.sh plugins-infra.ci.jenkins.io.txt)\n"
-        id: update-infra-ci-plugins
+      - id: update-infra-ci-plugins
         name: Update infra-ci plugins
+        run: echo "stdout=$(./bin/update-plugins.sh plugins-infra.ci.jenkins.io.txt)" >> $GITHUB_OUTPUT
 
       - name: Create infra.ci.jenkins.io Pull Request
         id: cpr-infra-ci
@@ -43,12 +43,12 @@ jobs:
           body: |
             Changes:
             ```diff
-            ${{ steps.update-plugins.outputs.stdout }}
+            ${{ steps.update-infra-ci-plugins.outputs.stdout }}
             ```
 
-      - run: echo "::set-output name=stdout::$(./bin/update-plugins.sh plugins-weekly.ci.jenkins.io.txt)\n"
-        id: update-weekly-ci-plugins
+      - id: update-weekly-ci-plugins
         name: Update weekly-ci plugins
+        run: echo "stdout=$(./bin/update-plugins.sh plugins-weekly.ci.jenkins.io.txt)" >> $GITHUB_OUTPUT
 
       - name: Create weekly.ci.jenkins.io Pull Request
         id: cpr-weekly-ci
@@ -65,5 +65,5 @@ jobs:
           body: |
             Changes:
             ```diff
-            ${{ steps.update-plugins.outputs.stdout }}
+            ${{ steps.update-weekly-ci-plugins.outputs.stdout }}
             ```
