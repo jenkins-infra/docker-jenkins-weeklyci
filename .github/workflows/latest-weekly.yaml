@@ -27,7 +27,7 @@ jobs:
           if [[ $(git diff --stat) != '' ]]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
-          echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> $GITHUB_OUTPUT
           fi
       - name: Update plugins
         if: ${{ steps.diff.outputs.changed == 'true' }}
@@ -44,37 +44,45 @@ jobs:
 
             # Store comparison between original and updated plugins files
             diff --unified=0 original-plugins.txt "plugins-${instance}.ci.jenkins.io.txt" > diff.txt || true
-            pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
-            newlines=$(echo "${pluginsdiff}" | grep '+')
+            if [ -s diff.txt ]; then
+              pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
+              newlines=$(echo "${pluginsdiff}" | grep '+')
 
-            links=''
-            while read -r line
-            do
-              pluginName=${line%:*}
-              pluginVersion=${line#*:}
-              links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
-            done <<< "$newlines"
+              links=''
+              while read -r line
+              do
+                pluginName=${line%:*}
+                pluginVersion=${line#*:}
+                links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
+              done <<< "$newlines"
 
-            # Cleanup
-            rm original-plugins.txt diff.txt
+              # Cleanup
+              rm original-plugins.txt diff.txt
 
-            delimiter="$(openssl rand -hex 8)"
-            # shellcheck disable=SC2129
-            echo "diff-${instance}<<${delimiter}" >> "${GITHUB_OUTPUT}"
-            echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
-            echo "${delimiter}" >> "${GITHUB_OUTPUT}"
-            delimiter="$(openssl rand -hex 8)"
-            echo "links-${instance}<<${delimiter}" >> "${GITHUB_OUTPUT}"
-            echo "${links}" >> "$GITHUB_OUTPUT"
-            echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+              delimiter="$(openssl rand -hex 8)"
+              # shellcheck disable=SC2129
+              echo "diff-${instance}<<${delimiter}" >> "${GITHUB_OUTPUT}"
+              echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
+              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+              delimiter="$(openssl rand -hex 8)"
+              echo "links-${instance}<<${delimiter}" >> "${GITHUB_OUTPUT}"
+              echo "${links}" >> "$GITHUB_OUTPUT"
+              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+            else
+              echo "diff-${instance}=''" >> "${GITHUB_OUTPUT}"
+              echo "links-${instance}=''" >> "${GITHUB_OUTPUT}"
+            fi
           done
+
       - uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2.1.0
         id: generate-token
+        if: ${{ steps.diff.outputs.changed == 'true' }}
         with:
           app_id: ${{ secrets.JENKINS_ADMIN_APP_ID }}
           private_key: ${{ secrets.JENKINS_ADMIN_APP_PRIVKEY }}
       - name: Create Pull Request
         id: cpr
+        if: ${{ steps.diff.outputs.changed == 'true' }}
         uses: peter-evans/create-pull-request@a4f52f8033a6168103c2538976c07b467e8163bc # v6.0.1
         with:
           commit-message: 'feat(deps): bump jenkins weekly to ${{ steps.update.outputs.jenkins_version }}'
