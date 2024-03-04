@@ -135,4 +135,3 @@
               ```
               ### Link(s):
               ${{ steps.update-weekly-ci-plugins.outputs.links }}
-  
