@@ -32,8 +32,6 @@ for pluginfile in ${list}; do
         java -jar "${TMP_DIR}/jenkins-plugin-manager.jar" -f "${pluginfile}" --available-updates --output txt --war "${TMP_DIR}/jenkins.war"  > plugins2.txt
 
         mv plugins2.txt "${pluginfile}"
-
-        git diff "${pluginfile}"
     fi
 done
 
