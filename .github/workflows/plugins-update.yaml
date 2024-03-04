@@ -36,31 +36,39 @@
   
             # Store comparison between original and updated
             diff --unified=0 original-plugins.txt plugins-infra.ci.jenkins.io.txt > diff.txt || true
-            pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
-            newlines=$(echo "${pluginsdiff}" | grep '+')
-  
-            links=''
-            while read -r line
-            do
-              pluginName=${line%:*}
-              pluginVersion=${line#*:}
-              links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
-            done <<< "$newlines"
-  
-            # Cleanup
-            rm original-plugins.txt diff.txt
-  
-            delimiter="$(openssl rand -hex 8)"
-            # shellcheck disable=SC2129
-            echo "pluginsdiff<<${delimiter}" >> "${GITHUB_OUTPUT}"
-            echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
-            echo "${delimiter}" >> "${GITHUB_OUTPUT}"
-            delimiter="$(openssl rand -hex 8)"
-            echo "links<<${delimiter}" >> "${GITHUB_OUTPUT}"
-            echo "${links}" >> "$GITHUB_OUTPUT"
-            echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+            if [ -s diff.txt ]; then
+              pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
+              newlines=$(echo "${pluginsdiff}" | grep '+')
+    
+              links=''
+              while read -r line
+              do
+                pluginName=${line%:*}
+                pluginVersion=${line#*:}
+                links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
+              done <<< "$newlines"
+    
+              # Cleanup
+              rm original-plugins.txt diff.txt
+    
+              delimiter="$(openssl rand -hex 8)"
+              # shellcheck disable=SC2129
+              echo "pluginsdiff<<${delimiter}" >> "${GITHUB_OUTPUT}"
+              echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
+              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+              
+              delimiter="$(openssl rand -hex 8)"
+              echo "links<<${delimiter}" >> "${GITHUB_OUTPUT}"
+              echo "${links}" >> "$GITHUB_OUTPUT"
+              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+
+              echo "changed=true" >> "${GITHUB_OUTPUT}"
+            else
+              echo "changed=false" >> "${GITHUB_OUTPUT}"
+            fi
   
         - name: Create infra.ci.jenkins.io Pull Request
+          if: ${{ steps.update-infra-ci-plugins.outputs.changed == 'true' }}
           id: cpr-infra-ci
           uses: peter-evans/create-pull-request@a4f52f8033a6168103c2538976c07b467e8163bc #v6.0.1
           with:
@@ -92,31 +100,39 @@
   
             # Store comparison between original and updated
             diff --unified=0 original-plugins.txt plugins-weekly.ci.jenkins.io.txt > diff.txt || true
-            pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
-            newlines=$(echo "${pluginsdiff}" | grep '+')
-  
-            links=''
-            while read -r line
-            do
-              pluginName=${line%:*}
-              pluginVersion=${line#*:}
-              links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
-            done <<< "$newlines"
-  
-            # Cleanup
-            rm original-plugins.txt diff.txt
-  
-            delimiter="$(openssl rand -hex 8)"
-            # shellcheck disable=SC2129
-            echo "pluginsdiff<<${delimiter}" >> "${GITHUB_OUTPUT}"
-            echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
-            echo "${delimiter}" >> "${GITHUB_OUTPUT}"
-            delimiter="$(openssl rand -hex 8)"
-            echo "links<<${delimiter}" >> "${GITHUB_OUTPUT}"
-            echo "${links}" >> "$GITHUB_OUTPUT"
-            echo "${delimiter}" >> "${GITHUB_OUTPUT}"
-  
+            if [ -s diff.txt ]; then
+              pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
+              newlines=$(echo "${pluginsdiff}" | grep '+')
+    
+              links=''
+              while read -r line
+              do
+                pluginName=${line%:*}
+                pluginVersion=${line#*:}
+                links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
+              done <<< "$newlines"
+    
+              # Cleanup
+              rm original-plugins.txt diff.txt
+    
+              delimiter="$(openssl rand -hex 8)"
+              # shellcheck disable=SC2129
+              echo "pluginsdiff<<${delimiter}" >> "${GITHUB_OUTPUT}"
+              echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
+              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+
+              delimiter="$(openssl rand -hex 8)"
+              echo "links<<${delimiter}" >> "${GITHUB_OUTPUT}"
+              echo "${links}" >> "$GITHUB_OUTPUT"
+              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+
+              echo "changed=true" >> $GITHUB_OUTPUT
+            else
+              echo "changed=true" >> $GITHUB_OUTPUT
+            fi
+
         - name: Create weekly.ci.jenkins.io Pull Request
+          if: ${{ steps.update-weekly-ci-plugins.outputs.changed == 'true' }}
           id: cpr-weekly-ci
           uses: peter-evans/create-pull-request@a4f52f8033a6168103c2538976c07b467e8163bc #v6.0.1
           with:
