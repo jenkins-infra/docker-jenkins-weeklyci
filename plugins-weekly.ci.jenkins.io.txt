@@ -11,7 +11,7 @@ azure-credentials:312.v0f3973cd1e59
 azure-sdk:157.v855da_0b_eb_dc2
 azure-vm-agents:901.ved986df424b_3
 basic-branch-build-strategies:81.v05e333931c7d
-bootstrap5-api:5.3.2-4
+bootstrap5-api:5.3.3-1
 bouncycastle-api:2.30.1.77-225.v26ea_c9455fd9
 branch-api:2.1152.v6f101e97dd77
 buildtriggerbadge:251.vdf6ef853f3f5
@@ -32,13 +32,13 @@ credentials:1337.v60b_d7b_c7b_c9f
 credentials-binding:657.v2b_19db_7d6e6d
 customizable-header:83.vf51a_828deb_b_e
 dark-theme:439.vdef09f81f85e
-data-tables-api:1.13.8-4
+data-tables-api:2.0.1-1
 datadog:6.0.2
 design-library:286.v6643a_81e02b_8
 display-url-api:2.200.vb_9327d658781
 docker-commons:439.va_3cb_0a_6a_fb_29
 durable-task:550.v0930093c4b_a_6
-echarts-api:5.4.3-4
+echarts-api:5.5.0-1
 extended-read-permission:53.v6499940139e5
 favorite:2.208.v91d65b_7792a_c
 font-awesome-api:6.5.1-3
@@ -118,7 +118,7 @@ windows-azure-storage:419.v4046cd70d2e3
 workflow-aggregator:596.v8c21c963d92d
 workflow-api:1291.v51fd2a_625da_7
 workflow-basic-steps:1049.v257a_e6b_30fb_d
-workflow-cps:3880.vb_ef4b_5cfd270
+workflow-cps:3883.vb_3ff2a_e3eea_f
 workflow-durable-task-step:1331.vc8c2fed35334
 workflow-job:1400.v7fd111b_ec82f
 workflow-multibranch:783.va_6eb_ef636fb_d
