@@ -128,7 +128,7 @@
 
               echo "changed=true" >> $GITHUB_OUTPUT
             else
-              echo "changed=true" >> $GITHUB_OUTPUT
+              echo "changed=false" >> $GITHUB_OUTPUT
             fi
 
         - name: Create weekly.ci.jenkins.io Pull Request
