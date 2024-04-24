@@ -1,3 +1,5 @@
+@Library('pipeline-library@pull/849/head') _
+
 pipeline {
     agent { label 'jnlp-linux-arm64' }
     options {
