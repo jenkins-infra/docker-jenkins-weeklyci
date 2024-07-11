@@ -1,7 +1,4 @@
-buildDockerAndPublishImage([
-    imageName: 'jenkins-weekly',
-    rebuildImageOnPeriodicJob: false, // We update core at least once a week
-    buildDockerConfig: [
-        targetplatforms: 'linux/amd64,linux/arm64'
-    ],
+buildDockerAndPublishImage('jenkins-weekly', [
+    automaticSemanticVersioning: true,
+    targetplatforms: 'linux/amd64,linux/arm64',
 ])
