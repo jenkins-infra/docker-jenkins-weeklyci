@@ -1,11 +1,11 @@
 ---
   name: Update plugins
-  
+
   on:
     schedule:
       - cron: "*/15 * * * *"
     workflow_dispatch:
-  
+
   jobs:
     main:
       runs-on: ubuntu-latest
@@ -17,29 +17,35 @@
           with:
             distribution: 'temurin'
             java-version: 17
-  
+
         - uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2.1.0
           id: generate-token
           with:
             app_id: ${{ secrets.JENKINS_ADMIN_APP_ID }}
             private_key: ${{ secrets.JENKINS_ADMIN_APP_PRIVKEY }}
-  
-        - id: update-infra-ci-plugins
-          name: Update infra-ci plugins
+
+        - id: update-plugins
+          name: Update plugins
           run: |
             set +x
+
+            # Use a temp file to avoid commits by error
+            temp_dir="$(mktemp -d)"
+            orig_plugins_file="${temp_dir}"/original-plugins.txt
+            diff_file="${temp_dir}"/diff.txt
+
             # Keep a copy of the original plugins file
-            cp plugins-infra.ci.jenkins.io.txt original-plugins.txt
-  
+            cp ./plugins.txt "${orig_plugins_file}"
+
             # Update it
-            ./bin/update-plugins.sh plugins-infra.ci.jenkins.io.txt
-  
+            ./bin/update-plugins.sh ./plugins.txt
+
             # Store comparison between original and updated
-            diff --unified=0 original-plugins.txt plugins-infra.ci.jenkins.io.txt > diff.txt || true
-            if [ -s diff.txt ]; then
-              pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
+            diff --unified=0 "${orig_plugins_file}" ./plugins.txt > "${diff_file}" || true
+            if [ -s "${diff_file}" ]; then
+              pluginsdiff="$(tail --lines +3 "${diff_file}" | grep -v '@')"
               newlines=$(echo "${pluginsdiff}" | grep '+')
-    
+
               links=''
               while read -r line
               do
@@ -47,16 +53,13 @@
                 pluginVersion=${line#*:}
                 links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
               done <<< "$newlines"
-    
-              # Cleanup
-              rm original-plugins.txt diff.txt
-    
+
               delimiter="$(openssl rand -hex 8)"
               # shellcheck disable=SC2129
               echo "pluginsdiff<<${delimiter}" >> "${GITHUB_OUTPUT}"
               echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
               echo "${delimiter}" >> "${GITHUB_OUTPUT}"
-              
+
               delimiter="$(openssl rand -hex 8)"
               echo "links<<${delimiter}" >> "${GITHUB_OUTPUT}"
               echo "${links}" >> "$GITHUB_OUTPUT"
@@ -66,75 +69,12 @@
             else
               echo "changed=false" >> "${GITHUB_OUTPUT}"
             fi
-  
-        - name: Create infra.ci.jenkins.io Pull Request
-          if: ${{ steps.update-infra-ci-plugins.outputs.changed == 'true' }}
-          id: cpr-infra-ci
-          uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c #v6.1.0
-          with:
-            commit-message: 'chore(deps): update infra.ci.jenkins.io plugins'
-            signoff: false
-            title: 'chore(deps): update infra.ci.jenkins.io plugins'
-            author: jenkins-infra-updatecli[bot] <178728+jenkins-infra-updatecli[bot]@users.noreply.github.com>
-            committer: jenkins-infra-updatecli[bot] <178728+jenkins-infra-updatecli[bot]@users.noreply.github.com>
-            branch: update-infra-ci-plugins
-            token: ${{ steps.generate-token.outputs.token }}
-            labels: dependencies,infra-ci-plugins
-            body: |
-              ### Change(s):
-              ```diff
-              ${{ steps.update-infra-ci-plugins.outputs.pluginsdiff }}
-              ```
-              ### Link(s):
-              ${{ steps.update-infra-ci-plugins.outputs.links }}
-  
-        - id: update-weekly-ci-plugins
-          name: Update weekly-ci plugins
-          run: |
-            set +x
-            # Keep a copy of the original plugins file
-            cp plugins-weekly.ci.jenkins.io.txt original-plugins.txt
-  
-            # Update it
-            ./bin/update-plugins.sh plugins-weekly.ci.jenkins.io.txt
-  
-            # Store comparison between original and updated
-            diff --unified=0 original-plugins.txt plugins-weekly.ci.jenkins.io.txt > diff.txt || true
-            if [ -s diff.txt ]; then
-              pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
-              newlines=$(echo "${pluginsdiff}" | grep '+')
-    
-              links=''
-              while read -r line
-              do
-                pluginName=${line%:*}
-                pluginVersion=${line#*:}
-                links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
-              done <<< "$newlines"
-    
-              # Cleanup
-              rm original-plugins.txt diff.txt
-    
-              delimiter="$(openssl rand -hex 8)"
-              # shellcheck disable=SC2129
-              echo "pluginsdiff<<${delimiter}" >> "${GITHUB_OUTPUT}"
-              echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
-              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
 
-              delimiter="$(openssl rand -hex 8)"
-              echo "links<<${delimiter}" >> "${GITHUB_OUTPUT}"
-              echo "${links}" >> "$GITHUB_OUTPUT"
-              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
 
-              echo "changed=true" >> $GITHUB_OUTPUT
-            else
-              echo "changed=false" >> $GITHUB_OUTPUT
-            fi
-
-        - name: Create weekly.ci.jenkins.io Pull Request
-          if: ${{ steps.update-weekly-ci-plugins.outputs.changed == 'true' }}
-          id: cpr-weekly-ci
-          uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c #v6.1.0
+        - name: Create Pull Request
+          if: ${{ steps.update-plugins.outputs.changed == 'true' }}
+          id: create-pull-request
+          uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6.1.0
           with:
             commit-message: 'chore(deps): update weekly.ci.jenkins.io plugins'
             signoff: false
@@ -147,7 +87,7 @@
             body: |
               ### Change(s):
               ```diff
-              ${{ steps.update-weekly-ci-plugins.outputs.pluginsdiff }}
+              ${{ steps.update-plugins.outputs.pluginsdiff }}
               ```
               ### Link(s):
-              ${{ steps.update-weekly-ci-plugins.outputs.links }}
+              ${{ steps.update-plugins.outputs.links }}

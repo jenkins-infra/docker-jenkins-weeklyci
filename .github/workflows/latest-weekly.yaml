@@ -29,50 +29,6 @@ jobs:
           else
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
-      - name: Update plugins
-        if: ${{ steps.diff.outputs.changed == 'true' }}
-        id: update-plugins
-        run: |
-          set +x
-          instances="infra weekly"
-          for instance in $instances; do
-            # Keep a copy of the original plugins file
-            cp "plugins-${instance}.ci.jenkins.io.txt" original-plugins.txt
-
-            # Update them
-            ./bin/update-plugins.sh "plugins-${instance}.ci.jenkins.io.txt"
-
-            # Store comparison between original and updated plugins files
-            diff --unified=0 original-plugins.txt "plugins-${instance}.ci.jenkins.io.txt" > diff.txt || true
-            if [ -s diff.txt ]; then
-              pluginsdiff=$(cat diff.txt | tail --lines +3 | grep -v '@')
-              newlines=$(echo "${pluginsdiff}" | grep '+')
-
-              links=''
-              while read -r line
-              do
-                pluginName=${line%:*}
-                pluginVersion=${line#*:}
-                links+="[${pluginName//+}:${pluginVersion}](https://plugins.jenkins.io/${pluginName//+}/releases/#version_${pluginVersion})<br>"
-              done <<< "$newlines"
-
-              # Cleanup
-              rm original-plugins.txt diff.txt
-
-              delimiter="$(openssl rand -hex 8)"
-              # shellcheck disable=SC2129
-              echo "diff-${instance}<<${delimiter}" >> "${GITHUB_OUTPUT}"
-              echo "${pluginsdiff}" >> "$GITHUB_OUTPUT"
-              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
-              delimiter="$(openssl rand -hex 8)"
-              echo "links-${instance}<<${delimiter}" >> "${GITHUB_OUTPUT}"
-              echo "${links}" >> "$GITHUB_OUTPUT"
-              echo "${delimiter}" >> "${GITHUB_OUTPUT}"
-            else
-              echo "diff-${instance}=''" >> "${GITHUB_OUTPUT}"
-              echo "links-${instance}=''" >> "${GITHUB_OUTPUT}"
-            fi
-          done
 
       - uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2.1.0
         id: generate-token
@@ -90,19 +46,3 @@ jobs:
           title: 'feat(deps): bump jenkins weekly to ${{ steps.update.outputs.jenkins_version }}'
           branch: latest-weekly
           token: ${{ steps.generate-token.outputs.token }}
-          body: |
-            ## infra.ci.jenkins.io plugins
-            ### Change(s):
-            ```diff
-            ${{ steps.update-plugins.outputs.diff-infra }}
-            ```
-            ### Link(s):
-            ${{ steps.update-plugins.outputs.links-infra }}
-
-            ## weekly.ci.jenkins.io plugins
-            ### Change(s):
-            ```diff
-            ${{ steps.update-plugins.outputs.diff-weekly }}
-            ```
-            ### Link(s):
-            ${{ steps.update-plugins.outputs.links-weekly }}
