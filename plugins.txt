@@ -1,4 +1,4 @@
-analysis-model-api:12.3.3
+analysis-model-api:12.4.0
 ansicolor:1.0.4
 antisamy-markup-formatter:162.v0e6ec0fcfcf6
 apache-httpcomponents-client-4-api:4.5.14-208.v438351942757
@@ -47,7 +47,7 @@ git-client:5.0.0
 git-forensics:2.1.0
 github:1.39.0
 github-api:1.318-461.v7a_c09c9fa_d63
-github-branch-source:1789.v5b_0c0cea_18c3
+github-branch-source:1790.v5a_7859812c8d
 github-checks:581.va_9669c91d6cb_
 github-label-filter:1.0.0
 groovy:457.v99900cb_85593
