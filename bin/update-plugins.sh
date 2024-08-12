@@ -29,7 +29,14 @@ for pluginfile in ${list}; do
     if [ -e "${pluginfile}" ]; then
         echo "Updating plugins file: ${pluginfile}"
 
-        java -jar "${TMP_DIR}/jenkins-plugin-manager.jar" -f "${pluginfile}" --available-updates --output txt --war "${TMP_DIR}/jenkins.war"  > plugins2.txt
+        java -jar "${TMP_DIR}/jenkins-plugin-manager.jar" \
+            --plugin-file "${pluginfile}" \
+            --jenkins-update-center='https://azure.updates.jenkins.io/update-center.json' \
+            --jenkins-plugin-info='https://azure.updates.jenkins.io/update-center.json' \
+            --available-updates \
+            --output txt \
+            --war "${TMP_DIR}/jenkins.war" \
+        > plugins2.txt
 
         mv plugins2.txt "${pluginfile}"
     fi
