@@ -1,3 +1,5 @@
+@Library('pipeline-library@pull/879/head') _
+
 buildDockerAndPublishImage('jenkins-weeklyci', [
     automaticSemanticVersioning: true,
     targetplatforms: 'linux/amd64,linux/arm64',
