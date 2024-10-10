@@ -9,7 +9,7 @@ aws-java-sdk-minimal:1.12.767-467.vb_e93f0c614b_6
 azure-container-agents:253.vd2f5cd5c5040
 azure-credentials:312.v0f3973cd1e59
 azure-sdk:174.va_89c1df897d2
-azure-vm-agents:959.v890cb_660f66a_
+azure-vm-agents:960.v655c495b_4ff7
 basic-branch-build-strategies:81.v05e333931c7d
 bootstrap5-api:5.3.3-1
 bouncycastle-api:2.30.1.78.1-248.ve27176eb_46cb_
@@ -30,7 +30,7 @@ configuration-as-code:1850.va_a_8c31d3158b_
 copyartifact:749.vfb_dca_a_9b_6549
 credentials:1384.vf0a_2ed06f9c6
 credentials-binding:681.vf91669a_32e45
-customizable-header:135.vf8ce4237feb_c
+customizable-header:139.v9ddf3532f123
 dark-theme:479.v661b_1b_911c01
 data-tables-api:2.1.8-1
 design-library:307.vecc0205ca_707
@@ -43,7 +43,7 @@ favorite:2.221.v19ca_666b_62f5
 font-awesome-api:6.6.0-2
 forensics-api:2.6.0
 git:5.5.2
-git-client:6.0.0
+git-client:6.1.0
 git-forensics:2.2.1
 github:1.40.0
 github-api:1.321-478.vc9ce627ce001
@@ -68,7 +68,7 @@ jnr-posix-api:3.1.19-2
 job-dsl:1.89
 jsch:0.2.16-86.v42e010d9484b_
 junit:1304.vc85a_b_ca_96613
-kubernetes:4290.v93ea_4b_b_26a_61
+kubernetes:4292.v11898cf8fa_66
 kubernetes-client-api:6.10.0-240.v57880ce8b_0b_2
 kubernetes-credentials:190.v03c305394deb_
 kubernetes-credentials-provider:1.262.v2670ef7ea_0c5
@@ -82,7 +82,7 @@ okhttp-api:4.11.0-181.v1de5b_83857df
 pipeline-build-step:540.vb_e8849e1a_b_d8
 pipeline-github:2.8-159.09e4403bc62f
 pipeline-graph-analysis:216.vfd8b_ece330ca_
-pipeline-graph-view:354.v2f82db_3f59cc
+pipeline-graph-view:367.vb_18b_b_5c0cfb_e
 pipeline-groovy-lib:730.ve57b_34648c63
 pipeline-input-step:495.ve9c153f6067b_
 pipeline-milestone-step:119.vdfdc43fc3b_9a_
@@ -96,7 +96,7 @@ plain-credentials:183.va_de8f1dd5a_2b_
 plugin-util-api:5.1.0
 prism-api:1.29.0-17
 pubsub-light:1.18
-scm-api:696.v778d637b_a_762
+scm-api:698.v8e3b_c788f0a_6
 scm-filter-branch-pr:148.v0b_5f06e8b_c84
 script-security:1362.v67dc1f0e1b_b_3
 snakeyaml-api:2.3-123.v13484c65210a_
@@ -119,7 +119,7 @@ workflow-api:1336.vee415d95c521
 workflow-basic-steps:1058.vcb_fc1e3a_21a_9
 workflow-cps:3969.vdc9d3a_efcc6a_
 workflow-durable-task-step:1371.vb_7cec8f3b_95e
-workflow-job:1441.vb_2d416905b_35
+workflow-job:1447.v559b_c710cd2e
 workflow-multibranch:795.ve0cb_1f45ca_9a_
 workflow-scm-step:427.v4ca_6512e7df1
 workflow-step-api:678.v3ee58b_469476
