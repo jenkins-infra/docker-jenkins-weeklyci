@@ -13,7 +13,7 @@ azure-vm-agents:961.v09fa_01e1348f
 basic-branch-build-strategies:190.v343a_ee70d920
 bootstrap5-api:5.3.3-1
 bouncycastle-api:2.30.1.78.1-248.ve27176eb_46cb_
-branch-api:2.1178.v969d9eb_c728e
+branch-api:2.1182.va_e67548fb_ed2
 buildtriggerbadge:251.vdf6ef853f3f5
 caffeine-api:3.1.8-133.v17b_1ff2e0599
 checks-api:2.2.1
@@ -25,12 +25,12 @@ coverage:1.16.1
 command-launcher:115.vd8b_301cc15d0
 commons-lang3-api:3.17.0-84.vb_b_938040b_078
 commons-text-api:1.12.0-129.v99a_50df237f7
-config-file-provider:978.v8e85886ffdc4
+config-file-provider:980.v88956a_a_5d6a_d
 configuration-as-code:1850.va_a_8c31d3158b_
-copyartifact:749.vfb_dca_a_9b_6549
+copyartifact:757.v05365583a_455
 credentials:1389.vd7a_b_f5fa_50a_2
 credentials-binding:687.v619cb_15e923f
-customizable-header:139.v9ddf3532f123
+customizable-header:140.v8e771d054075
 dark-theme:479.v661b_1b_911c01
 data-tables-api:2.1.8-1
 design-library:307.vecc0205ca_707
@@ -47,7 +47,7 @@ git-client:6.1.0
 git-forensics:2.2.1
 github:1.40.0
 github-api:1.321-478.vc9ce627ce001
-github-branch-source:1803.v98e3d8a_c8169
+github-branch-source:1807.v50351eb_7dd13
 github-checks:589.v845136f916cd
 github-label-filter:1.0.0
 groovy:457.v99900cb_85593
@@ -76,7 +76,7 @@ ldap:759.vef7f616475df
 mailer:489.vd4b_25144138f
 matrix-auth:3.2.3
 matrix-project:840.v812f627cb_578
-metrics:4.2.21-451.vd51df8df52ec
+metrics:4.2.21-458.vcf496cb_839e4
 node-iterator-api:55.v3b_77d4032326
 okhttp-api:4.11.0-181.v1de5b_83857df
 pipeline-build-step:540.vb_e8849e1a_b_d8
@@ -105,7 +105,7 @@ ssh-agent:376.v8933585c69d3
 ssh-credentials:343.v884f71d78167
 sshd:3.330.vc866a_8389b_58
 structs:338.v848422169819
-support-core:1511.v3f5cc9b_a_ff55
+support-core:1519.vb_f214b_a_25a_a_5
 theme-manager:262.vc57ee4a_eda_5d
 timestamper:1.27
 token-macro:400.v35420b_922dcb_
