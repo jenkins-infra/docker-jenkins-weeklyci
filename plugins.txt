@@ -9,7 +9,7 @@ aws-java-sdk-minimal:1.12.772-474.v7f79a_2046a_fb_
 azure-container-agents:253.vd2f5cd5c5040
 azure-credentials:343.vd80f9c4859df
 azure-sdk:191.v53ec8913ee10
-azure-vm-agents:986.v45b_b_b_6617433
+azure-vm-agents:988.v9a_63017e8e36
 basic-branch-build-strategies:190.v343a_ee70d920
 bootstrap5-api:5.3.3-1
 bouncycastle-api:2.30.1.78.1-248.ve27176eb_46cb_
