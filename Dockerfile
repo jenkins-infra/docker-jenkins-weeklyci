@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.491-jdk17
+FROM jenkins/jenkins:2.492-jdk17
 
 COPY logos /usr/share/jenkins/ref/userContent/logos
 COPY ./plugins.txt /usr/share/jenkins/ref/plugins.txt
