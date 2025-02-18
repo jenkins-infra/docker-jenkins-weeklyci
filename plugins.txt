@@ -67,7 +67,7 @@ jjwt-api:0.11.5-112.ve82dfb_224b_a_d
 jnr-posix-api:3.1.20-125.vb_6ec4b_21b_15e
 job-dsl:1.90
 jsch:0.2.16-86.v42e010d9484b_
-junit:1314.vd966e9a_88895
+junit:1316.v13ec14a_de230
 kubernetes:4306.vc91e951ea_eb_d
 kubernetes-client-api:6.10.0-240.v57880ce8b_0b_2
 kubernetes-credentials:190.v03c305394deb_
