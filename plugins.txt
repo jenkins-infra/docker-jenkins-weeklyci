@@ -37,7 +37,7 @@ design-library:358.vcc903045e088
 display-url-api:2.209.v582ed814ff2f
 docker-commons:445.v6b_646c962a_94
 durable-task:581.v299a_5609d767
-echarts-api:5.6.0-1
+echarts-api:5.6.0-2
 extended-read-permission:61.vf24570ff3b_e9
 favorite:2.225.v68765b_b_a_1fa_3
 font-awesome-api:6.7.2-1
@@ -68,7 +68,7 @@ jnr-posix-api:3.1.20-125.vb_6ec4b_21b_15e
 job-dsl:1.91
 jsch:0.2.16-95.v3eecb_55fa_b_78
 junit:1317.v5b_35d792b_06a_
-kubernetes:4313.va_9b_4fe2a_0e34
+kubernetes:4314.v5b_846cf499eb_
 kubernetes-client-api:6.10.0-240.v57880ce8b_0b_2
 kubernetes-credentials:190.v03c305394deb_
 kubernetes-credentials-provider:1.273.v15e69b_55ea_8e
