@@ -18,7 +18,7 @@ buildtriggerbadge:251.vdf6ef853f3f5
 caffeine-api:3.2.0-161.v691ef352cee1
 checks-api:367.v18b_7f530e54a_
 cloud-stats:377.vd8a_6c953e98e
-cloudbees-bitbucket-branch-source:935.1.1
+cloudbees-bitbucket-branch-source:935.1.2
 cloudbees-folder:6.985.va_f1635030cc5
 cloudbees-jenkins-advisor:374.v194b_d4f0c8c8
 coverage:2.2.0
@@ -41,10 +41,10 @@ echarts-api:5.6.0-2
 extended-read-permission:61.vf24570ff3b_e9
 favorite:2.225.v68765b_b_a_1fa_3
 font-awesome-api:6.7.2-1
-forensics-api:3.0.0
+forensics-api:3.1.0
 git:5.7.0
 git-client:6.1.2
-git-forensics:3.1.0
+git-forensics:3.2.0
 github:1.42.0
 github-api:1.321-478.vc9ce627ce001
 github-branch-source:1810.v913311241fa_9
@@ -74,7 +74,7 @@ kubernetes-credentials:192.v4d5b_1c429d17
 kubernetes-credentials-provider:1.276.v99a_de03cb_076
 ldap:780.vcb_33c9a_e4332
 mailer:489.vd4b_25144138f
-matrix-auth:3.2.4
+matrix-auth:3.2.5
 matrix-project:845.vffd7fa_f27555
 metrics:4.2.21-464.vc9fa_a_0d6265d
 node-iterator-api:72.vc90e81737df1
@@ -115,12 +115,12 @@ variant:70.va_d9f17f859e0
 warnings-ng:12.4.1
 windows-azure-storage:469.v75a_3db_ea_d2b_a_
 workflow-aggregator:600.vb_57cdd26fdd7
-workflow-api:1363.v03f731255494
+workflow-api:1366.vf1fb_e1a_f6b_22
 workflow-basic-steps:1079.vce64b_a_929c5a_
-workflow-cps:4043.va_fb_de6a_a_8b_f5
+workflow-cps:4045.v0efb_cb_7cea_e9
 workflow-durable-task-step:1405.v1fcd4a_d00096
 workflow-job:1505.vea_4b_20a_4a_495
 workflow-multibranch:803.v08103b_87c280
 workflow-scm-step:437.v05a_f66b_e5ef8
 workflow-step-api:700.v6e45cb_a_5a_a_21
-workflow-support:961.v51869f7b_d409
+workflow-support:963.va_600813d04a_a_
