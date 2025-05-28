@@ -8,7 +8,7 @@ aws-java-sdk-ec2:1.12.780-480.v4a_0819121a_9e
 aws-java-sdk-minimal:1.12.780-480.v4a_0819121a_9e
 azure-container-agents:372.v073266fff4a_7
 azure-credentials:357.v6447d38fb_007
-azure-sdk:211.vd3b_6c5504331
+azure-sdk:223.vff769b_ce66b_b_
 azure-vm-agents:1026.v6b_6edb_b_e3fff
 basic-branch-build-strategies:228.v68c089762a_db_
 bootstrap5-api:5.3.5-1
@@ -39,7 +39,7 @@ docker-commons:451.vd12c371eeeb_3
 durable-task:587.v84b_877235b_45
 echarts-api:5.6.0-4
 extended-read-permission:61.vf24570ff3b_e9
-favorite:2.235.v4d873c7d02e9
+favorite:2.237.v79163ca_8b_892
 font-awesome-api:6.7.2-1
 forensics-api:3.1.0
 git:5.7.0
@@ -68,7 +68,7 @@ jnr-posix-api:3.1.20-138.vdb_9db_a_39182f
 job-dsl:1.92
 jsch:0.2.16-95.v3eecb_55fa_b_78
 junit:1335.v6b_a_a_e18534e1
-kubernetes:4349.v8fe8f2b_ee9f1
+kubernetes:4350.va_0283de0d6d6
 kubernetes-client-api:6.10.0-251.v556f5f100500
 kubernetes-credentials:192.v4d5b_1c429d17
 kubernetes-credentials-provider:1.281.v331e3f5a_05a_9
@@ -76,13 +76,13 @@ ldap:780.vcb_33c9a_e4332
 mailer:489.vd4b_25144138f
 matrix-auth:3.2.6
 matrix-project:849.v0cd64ed7e531
-metrics:4.2.30-471.v55fa_495f2b_f5
+metrics:4.2.32-476.v5042e1c1edd7
 node-iterator-api:72.vc90e81737df1
 okhttp-api:4.11.0-189.v976fa_d3379d6
 pipeline-build-step:567.vea_ce550ece97
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:237.v2b_75640ca_888
-pipeline-graph-view:538.v647ee88449dd
+pipeline-graph-view:543.v7e391c24713d
 pipeline-groovy-lib:752.vdddedf804e72
 pipeline-input-step:517.vf8e782ee645c
 pipeline-milestone-step:138.v78ca_76831a_43
