@@ -61,17 +61,12 @@ jnr-posix-api:3.1.20-166.v50a_50932c65b_
 job-dsl:1.93
 jsch:0.2.16-95.v3eecb_55fa_b_78
 junit:1335.v6b_a_a_e18534e1
-kubernetes:4358.vcfd9c5a_0a_f51
-kubernetes-client-api:7.3.1-256.v788a_0b_787114
-kubernetes-credentials:203.v85b_9836a_f44b_
-kubernetes-credentials-provider:1.290.ve56494531260
 ldap:780.vcb_33c9a_e4332
 mailer:509.vc54d23fc427e
 matrix-auth:3.2.6
 matrix-project:849.v0cd64ed7e531
 metrics:4.2.32-481.v75f035fdc894
 node-iterator-api:72.vc90e81737df1
-okhttp-api:4.11.0-189.v976fa_d3379d6
 pipeline-build-step:571.v08a_fffd4b_0ce
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:241.vc3d48fb_b_2582
