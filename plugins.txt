@@ -16,7 +16,7 @@ cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:936.4.4
 cloudbees-folder:6.1037.v4cb_8573b_72a_a_
 cloudbees-jenkins-advisor:384.vf19423a_eb_9b_0
-coverage:2.7.1
+coverage:2.8.0
 command-launcher:123.v37cfdc92ef67
 commons-lang3-api:3.18.0-98.v3a_674c06072d
 commons-text-api:1.14.0-194.v804a_dc3a_1b_d8
@@ -25,7 +25,7 @@ configuration-as-code:1985.vdda_32d0c4ea_b_
 copyartifact:770.va_6c69e063442
 credentials:1419.v2337d1ceceef
 credentials-binding:702.vfe613e537e88
-customizable-header:220.v7d040122e432
+customizable-header:222.v59c31852cf3a_
 dark-theme:574.va_19f05d54df5
 data-tables-api:2.3.2-3
 design-library:403.v0787db_1c972b_
@@ -65,7 +65,7 @@ jsch:0.2.16-95.v3eecb_55fa_b_78
 junit:1335.v6b_a_a_e18534e1
 ldap:780.vcb_33c9a_e4332
 mailer:515.vd788654779b_1
-matrix-auth:3.2.6
+matrix-auth:3.2.7
 matrix-project:849.v0cd64ed7e531
 metrics:4.2.32-481.v75f035fdc894
 node-iterator-api:72.vc90e81737df1
@@ -104,11 +104,11 @@ token-macro:477.vd4f0dc3cb_cf1
 toolenv:1.2
 trilead-api:2.209.v0e69b_c43c245
 variant:70.va_d9f17f859e0
-warnings-ng:12.9.0
+warnings-ng:12.10.0
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1382.veca_a_efe062fa_
 workflow-basic-steps:1079.vce64b_a_929c5a_
-workflow-cps:4175.ve65b_fa_663eed
+workflow-cps:4177.vb_203fe395445
 workflow-durable-task-step:1446.v3efd13441220
 workflow-job:1540.v295eccc9778f
 workflow-multibranch:810.v6b_6e77da_7058
