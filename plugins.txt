@@ -3,10 +3,10 @@ ansicolor:1.0.6
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
 authentication-tokens:1.144.v5ff4a_5ec5c33
-basic-branch-build-strategies:228.v68c089762a_db_
+basic-branch-build-strategies:275.vde2351b_4a_58b_
 bootstrap5-api:5.3.7-2
 bouncycastle-api:2.30.1.81-264.v95c79c0e772c
-branch-api:2.1235.v04e86c7ce54c
+branch-api:2.1240.vca_710512d944
 buildtriggerbadge:307.v19decf05a_0df
 caffeine-api:3.2.2-178.v353b_8428ed56
 catppuccin-theme:3.v903b_635ffa_b_4
@@ -66,7 +66,7 @@ junit:1335.v6b_a_a_e18534e1
 ldap:780.vcb_33c9a_e4332
 mailer:515.vd788654779b_1
 matrix-auth:3.2.7
-matrix-project:849.v0cd64ed7e531
+matrix-project:855.va_10985fa_3219
 metrics:4.2.32-481.v75f035fdc894
 node-iterator-api:72.vc90e81737df1
 nord-theme:1.1
@@ -97,7 +97,7 @@ ssh-agent:386.v36cc0c7582f0
 ssh-credentials:361.vb_f6760818e8c
 sshd:3.374.v19b_d59ce6610
 structs:353.v261ea_40a_80fb_
-support-core:1744.vf4f8e8f2b_0b_5
+support-core:1756.v5b_e146d607fd
 theme-manager:319.v9193461f9671
 timestamper:1.30
 token-macro:477.vd4f0dc3cb_cf1
@@ -111,7 +111,7 @@ workflow-basic-steps:1079.vce64b_a_929c5a_
 workflow-cps:4177.vb_203fe395445
 workflow-durable-task-step:1446.v3efd13441220
 workflow-job:1540.v295eccc9778f
-workflow-multibranch:810.v6b_6e77da_7058
+workflow-multibranch:811.vcd33d074c2a_0
 workflow-scm-step:437.v05a_f66b_e5ef8
 workflow-step-api:706.v518c5dcb_24c0
 workflow-support:976.vb_d9493c2eb_09
