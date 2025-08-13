@@ -16,7 +16,7 @@ cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:936.4.4
 cloudbees-folder:6.1037.v4cb_8573b_72a_a_
 cloudbees-jenkins-advisor:384.vf19423a_eb_9b_0
-coverage:2.8.0
+coverage:2.2875.ve560756ff429
 command-launcher:123.v37cfdc92ef67
 commons-lang3-api:3.18.0-98.v3a_674c06072d
 commons-text-api:1.14.0-194.v804a_dc3a_1b_d8
@@ -36,7 +36,7 @@ echarts-api:6.0.0-1
 extended-read-permission:61.vf24570ff3b_e9
 favorite:2.237.v79163ca_8b_892
 font-awesome-api:7.0.0-1
-forensics-api:3.1.0
+forensics-api:3.1740.v1d0305a_2747b_
 git:5.7.0
 git-client:6.3.0
 git-forensics:3.2.0
@@ -104,7 +104,7 @@ token-macro:477.vd4f0dc3cb_cf1
 toolenv:1.2
 trilead-api:2.209.v0e69b_c43c245
 variant:70.va_d9f17f859e0
-warnings-ng:12.10.0
+warnings-ng:12.9749.va_2c1361722d3
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1384.vdc05a_48f535f
 workflow-basic-steps:1079.vce64b_a_929c5a_
