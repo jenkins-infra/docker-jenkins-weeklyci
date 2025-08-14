@@ -6,7 +6,7 @@ authentication-tokens:1.144.v5ff4a_5ec5c33
 basic-branch-build-strategies:275.vde2351b_4a_58b_
 bootstrap5-api:5.3.7-2
 bouncycastle-api:2.30.1.81-264.v95c79c0e772c
-branch-api:2.1240.vca_710512d944
+branch-api:2.1244.vf95c81f1641c
 buildtriggerbadge:307.v19decf05a_0df
 caffeine-api:3.2.2-178.v353b_8428ed56
 catppuccin-theme:3.v903b_635ffa_b_4
@@ -97,7 +97,7 @@ ssh-agent:386.v36cc0c7582f0
 ssh-credentials:361.vb_f6760818e8c
 sshd:3.374.v19b_d59ce6610
 structs:353.v261ea_40a_80fb_
-support-core:1756.v5b_e146d607fd
+support-core:1758.v87f0f880c067
 theme-manager:319.v9193461f9671
 timestamper:1.30
 token-macro:477.vd4f0dc3cb_cf1
