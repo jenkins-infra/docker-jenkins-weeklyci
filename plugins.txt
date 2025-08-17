@@ -16,7 +16,7 @@ cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:936.4.4
 cloudbees-folder:6.1037.v4cb_8573b_72a_a_
 cloudbees-jenkins-advisor:384.vf19423a_eb_9b_0
-coverage:2.2875.ve560756ff429
+coverage:2.2879.v7434570a_8b_94
 command-launcher:123.v37cfdc92ef67
 commons-lang3-api:3.18.0-98.v3a_674c06072d
 commons-text-api:1.14.0-194.v804a_dc3a_1b_d8
@@ -84,7 +84,7 @@ pipeline-rest-api:2.38
 pipeline-stage-step:322.vecffa_99f371c
 pipeline-stage-tags-metadata:2.2265.v140e610fe9d5
 plain-credentials:199.v9f8e1f741799
-plugin-util-api:6.1.0
+plugin-util-api:6.1154.ved7e7d3035a_5
 prism-api:1.30.0-1
 pubsub-light:1.19
 scm-api:707.v749f968369d4
