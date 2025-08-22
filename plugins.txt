@@ -27,7 +27,7 @@ credentials:1419.v2337d1ceceef
 credentials-binding:702.vfe613e537e88
 customizable-header:222.v59c31852cf3a_
 dark-theme:574.va_19f05d54df5
-data-tables-api:2.3.2-1369.v417fcd327805
+data-tables-api:2.3.3-1376.v08b_1e57eb_b_74
 design-library:403.v0787db_1c972b_
 display-url-api:2.217.va_6b_de84cc74b_
 docker-commons:457.v0f62a_94f11a_3
@@ -35,7 +35,7 @@ durable-task:595.ve87b_f1318d67
 echarts-api:6.0.0-1137.vfd5f348e1952
 extended-read-permission:61.vf24570ff3b_e9
 favorite:2.237.v79163ca_8b_892
-font-awesome-api:7.0.0-840.vd6c7a_a_a_a_88e1
+font-awesome-api:7.0.0-844.vb_f7825b_7f5da_
 forensics-api:3.1745.vd1f0b_a_176458
 git:5.7.0
 git-client:6.3.1
@@ -65,7 +65,7 @@ jsch:0.2.16-95.v3eecb_55fa_b_78
 junit:1335.v6b_a_a_e18534e1
 ldap:780.vcb_33c9a_e4332
 mailer:522.va_995fa_cfb_8b_d
-matrix-auth:3.2.7
+matrix-auth:3.2.8
 matrix-project:856.v4c352b_3a_b_23e
 metrics:4.2.33-484.v2fcd689980d1
 node-iterator-api:72.vc90e81737df1
