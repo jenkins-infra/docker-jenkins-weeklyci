@@ -38,7 +38,7 @@ favorite:2.237.v79163ca_8b_892
 font-awesome-api:7.0.0-851.vd1feb_218a_a_63
 forensics-api:3.1754.v2a_6613b_77002
 git:5.7.0
-git-client:6.3.1
+git-client:6.3.2
 git-forensics:3.2088.v3a_896f5e4937
 github:1.44.0
 github-api:1.321-488.v9b_c0da_9533f8
@@ -104,7 +104,7 @@ token-macro:477.vd4f0dc3cb_cf1
 toolenv:1.2
 trilead-api:2.209.v0e69b_c43c245
 variant:70.va_d9f17f859e0
-warnings-ng:12.9772.v77058c8ea_646
+warnings-ng:12.9783.ve1cb_9f060738
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1384.vdc05a_48f535f
 workflow-basic-steps:1079.vce64b_a_929c5a_
