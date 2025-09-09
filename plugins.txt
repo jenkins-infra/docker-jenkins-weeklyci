@@ -51,7 +51,7 @@ handy-uri-templates-2-api:2.1.8-36.v85e4cb_234a_13
 inline-pipeline:1.0.32.vf433f2d57630
 instance-identity:203.v15e81a_1b_7a_38
 ionicons-api:94.vcc3065403257
-jackson2-api:2.19.2-408.v18248a_324cfe
+jackson2-api:2.20.0-411.v6ef8fdee4fe9
 jakarta-activation-api:2.1.3-2
 jakarta-mail-api:2.1.3-3
 javax-activation-api:1.2.0-8
