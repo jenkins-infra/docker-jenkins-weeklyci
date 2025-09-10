@@ -73,7 +73,7 @@ node-iterator-api:72.vc90e81737df1
 nord-theme:1.1
 pipeline-build-step:571.v08a_fffd4b_0ce
 pipeline-github:2.8-162.382498405fdc
-pipeline-graph-analysis:241.vc3d48fb_b_2582
+pipeline-graph-analysis:245.v88f03631a_b_21
 pipeline-graph-view:637.vb_6105ed84508
 pipeline-groovy-lib:752.vdddedf804e72
 pipeline-input-step:534.v352f0a_e98918
@@ -110,7 +110,7 @@ workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1384.vdc05a_48f535f
 workflow-basic-steps:1079.vce64b_a_929c5a_
 workflow-cps:4183.v94b_6fd39da_c1
-workflow-durable-task-step:1452.v0ee719c104a_7
+workflow-durable-task-step:1458.va_2e10a_a_b_7c4d
 workflow-job:1546.v62a_c59c112dd
 workflow-multibranch:811.vcd33d074c2a_0
 workflow-scm-step:437.v05a_f66b_e5ef8
