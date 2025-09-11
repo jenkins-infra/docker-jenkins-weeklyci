@@ -23,7 +23,7 @@ commons-text-api:1.14.0-194.v804a_dc3a_1b_d8
 config-file-provider:994.v3d4a_5fa_f353a_
 configuration-as-code:1985.vdda_32d0c4ea_b_
 copyartifact:770.va_6c69e063442
-credentials:1419.v2337d1ceceef
+credentials:1442.v292d4234d1b_f
 credentials-binding:702.vfe613e537e88
 csp:1.43.vb_e0a_fd67d28d
 customizable-header:222.v59c31852cf3a_
@@ -43,7 +43,7 @@ git-client:6.3.3
 git-forensics:3.2088.v3a_896f5e4937
 github:1.45.0
 github-api:1.330-492.v3941a_032db_2a_
-github-branch-source:1848.v42f74f7f4500
+github-branch-source:1862.v1a_fc22a_d3788
 github-checks:634.v371dc6d978a_3
 github-label-filter:1.0.0
 groovy:497.v7b_061a_a_de65d
