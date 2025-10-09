@@ -67,7 +67,7 @@ junit:1363.v2ea_b_461a_1480
 ldap:793.v754d6b_41b_ea_4
 mailer:522.va_995fa_cfb_8b_d
 matrix-auth:3.2.8
-matrix-project:867.vc7ec936160ee
+matrix-project:870.v9db_fcfc2f45b_
 metrics:4.2.37-487.v7d6048d8733c
 node-iterator-api:72.vc90e81737df1
 nord-theme:1.1
