@@ -26,7 +26,7 @@ copyartifact:770.va_6c69e063442
 credentials:1447.v4cb_b_539b_5321
 credentials-binding:702.vfe613e537e88
 csp:1.43.vb_e0a_fd67d28d
-customizable-header:222.v59c31852cf3a_
+customizable-header:232.v6459b_dd4f8a_9
 dark-theme:574.va_19f05d54df5
 data-tables-api:2.3.4-1427.v2e5c477e8b_83
 design-library:403.v0787db_1c972b_
@@ -43,7 +43,7 @@ git-client:6.4.0
 git-forensics:3.2138.vf25ea_d549e33
 github:1.45.0
 github-api:1.330-492.v3941a_032db_2a_
-github-branch-source:1871.v50ffb_786515e
+github-branch-source:1906.v21c5c13d25c6
 github-checks:634.v371dc6d978a_3
 github-label-filter:1.0.0
 groovy:497.v7b_061a_a_de65d
@@ -63,7 +63,7 @@ jjwt-api:0.11.5-120.v0268cf544b_89
 jnr-posix-api:3.1.20-166.v50a_50932c65b_
 job-dsl:1.93
 jsch:0.2.16-95.v3eecb_55fa_b_78
-junit:1368.v066f524494ee
+junit:1369.v15da_00283f06
 ldap:793.v754d6b_41b_ea_4
 mailer:522.va_995fa_cfb_8b_d
 matrix-auth:3.2.8
@@ -74,7 +74,7 @@ nord-theme:1.1
 pipeline-build-step:571.v08a_fffd4b_0ce
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:245.v88f03631a_b_21
-pipeline-graph-view:664.v998752b_00a_dc
+pipeline-graph-view:667.ve2f397347f13
 pipeline-groovy-lib:776.vfee5327b_b_a_5b_
 pipeline-input-step:534.v352f0a_e98918
 pipeline-milestone-step:138.v78ca_76831a_43
