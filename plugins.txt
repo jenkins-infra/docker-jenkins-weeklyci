@@ -68,7 +68,7 @@ ldap:793.v754d6b_41b_ea_4
 mailer:522.va_995fa_cfb_8b_d
 matrix-auth:3.2.8
 matrix-project:870.v9db_fcfc2f45b_
-metrics:4.2.37-487.v7d6048d8733c
+metrics:4.2.37-489.vb_6db_69b_ce753
 node-iterator-api:72.vc90e81737df1
 nord-theme:1.1
 pipeline-build-step:571.v08a_fffd4b_0ce
@@ -115,4 +115,4 @@ workflow-job:1551.v7320b_88b_d5e6
 workflow-multibranch:821.vc3b_4ea_780798
 workflow-scm-step:452.vdf1ca_c8d3a_87
 workflow-step-api:710.v3e456cc85233
-workflow-support:991.v66c18437d509
+workflow-support:1004.veee3a_d67cdb_9
