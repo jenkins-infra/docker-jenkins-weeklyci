@@ -1,4 +1,4 @@
-analysis-model-api:13.11.0-924.v4b_39542a_4ff2
+analysis-model-api:13.15.0-928.v63f6dc44cfd2
 ansicolor:1.0.6
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
@@ -16,7 +16,7 @@ cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:937.2.1
 cloudbees-folder:6.1073.va_7888eb_dd514
 cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
-coverage:2.2977.v0e1c1d11042d
+coverage:2.3036.v90d485b_810c6
 command-launcher:123.v37cfdc92ef67
 commons-lang3-api:3.19.0-104.v12125f33a_255
 commons-text-api:1.14.0-194.v804a_dc3a_1b_d8
@@ -34,7 +34,7 @@ display-url-api:2.217.va_6b_de84cc74b_
 docker-commons:457.v0f62a_94f11a_3
 durable-task:635.v3733cef34b_5e
 echarts-api:6.0.0-1165.vd1283a_3e37d4
-extended-read-permission:61.vf24570ff3b_e9
+extended-read-permission:68.vd270568a_7520
 favorite:2.253.v9b_413168133b_
 font-awesome-api:7.1.0-882.v1dfb_771e3278
 forensics-api:3.1772.v99ca_3d83b_9fa_
@@ -75,7 +75,7 @@ pipeline-build-step:571.v08a_fffd4b_0ce
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:245.v88f03631a_b_21
 pipeline-graph-view:712.v9ea_78cc1e8a_4
-pipeline-groovy-lib:776.vfee5327b_b_a_5b_
+pipeline-groovy-lib:787.ve2fef0efdca_6
 pipeline-input-step:540.v14b_100d754dd
 pipeline-milestone-step:138.v78ca_76831a_43
 pipeline-model-api:2.2277.v00573e73ddf1
@@ -97,7 +97,7 @@ sse-gateway:1.28
 ssh-agent:386.v36cc0c7582f0
 ssh-credentials:361.vb_f6760818e8c
 sshd:3.374.v19b_d59ce6610
-structs:353.v261ea_40a_80fb_
+structs:362.va_b_695ef4fdf9
 support-core:1763.ve4ce0d10a_3f0
 theme-manager:327.v780d7096ec29
 timestamper:1.30
