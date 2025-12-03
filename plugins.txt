@@ -25,7 +25,6 @@ configuration-as-code:2006.v001a_2ca_6b_574
 copyartifact:770.va_6c69e063442
 credentials:1447.v4cb_b_539b_5321
 credentials-binding:702.vfe613e537e88
-csp:1.43.vb_e0a_fd67d28d
 customizable-header:232.v6459b_dd4f8a_9
 dark-theme:574.va_19f05d54df5
 data-tables-api:2.3.5-1482.vb_47a_3c19f78c
