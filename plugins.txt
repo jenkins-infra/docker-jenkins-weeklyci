@@ -19,7 +19,7 @@ cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
 coverage:2.3054.ve1ff7b_a_a_123b_
 command-launcher:123.v37cfdc92ef67
 commons-lang3-api:3.19.0-104.v12125f33a_255
-commons-text-api:1.14.0-194.v804a_dc3a_1b_d8
+commons-text-api:1.15.0-210.v7480a_da_70b_9e
 config-file-provider:1006.vc7366c201f57
 configuration-as-code:2006.v001a_2ca_6b_574
 copyartifact:770.va_6c69e063442
