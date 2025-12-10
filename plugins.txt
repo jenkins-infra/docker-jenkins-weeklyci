@@ -13,10 +13,10 @@ catppuccin-theme:3.v903b_635ffa_b_4
 checks-api:373.vfe7645102093
 chocolate-theme:7.v6a_8b_000467c6
 cloud-stats:377.vd8a_6c953e98e
-cloudbees-bitbucket-branch-source:937.2.1
+cloudbees-bitbucket-branch-source:937.2.2
 cloudbees-folder:6.1073.va_7888eb_dd514
 cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
-coverage:2.3054.ve1ff7b_a_a_123b_
+coverage:2.3056.v1dfe888b_0249
 command-launcher:123.v37cfdc92ef67
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
 commons-text-api:1.15.0-210.v7480a_da_70b_9e
@@ -38,7 +38,7 @@ favorite:2.253.v9b_413168133b_
 font-awesome-api:7.1.0-882.v1dfb_771e3278
 forensics-api:3.1772.v99ca_3d83b_9fa_
 git:5.8.1
-git-client:6.4.0
+git-client:6.4.1
 git-forensics:3.2138.vf25ea_d549e33
 github:1.45.0
 github-api:1.330-492.v3941a_032db_2a_
