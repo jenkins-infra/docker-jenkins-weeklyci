@@ -16,7 +16,7 @@ cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:937.2.2
 cloudbees-folder:6.1073.va_7888eb_dd514
 cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
-coverage:2.3056.v1dfe888b_0249
+coverage:2.3060.v035a_5557cdb_c
 command-launcher:123.v37cfdc92ef67
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
 commons-text-api:1.15.0-210.v7480a_da_70b_9e
@@ -25,7 +25,7 @@ configuration-as-code:2006.v001a_2ca_6b_574
 copyartifact:770.va_6c69e063442
 credentials:1453.v9b_a_29777a_b_fd
 credentials-binding:702.vfe613e537e88
-customizable-header:255.v3a_5dec1a_b_e28
+customizable-header:257.v1c5c2d5c0594
 dark-theme:574.va_19f05d54df5
 data-tables-api:2.3.5-1482.vb_47a_3c19f78c
 design-library:403.v0787db_1c972b_
@@ -73,7 +73,7 @@ nord-theme:1.1
 pipeline-build-step:571.v08a_fffd4b_0ce
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:245.v88f03631a_b_21
-pipeline-graph-view:724.v41764e7b_3176
+pipeline-graph-view:730.v433816a_b_7a_73
 pipeline-groovy-lib:787.ve2fef0efdca_6
 pipeline-input-step:540.v14b_100d754dd
 pipeline-milestone-step:138.v78ca_76831a_43
