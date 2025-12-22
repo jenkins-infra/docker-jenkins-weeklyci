@@ -27,7 +27,7 @@ credentials:1453.v9b_a_29777a_b_fd
 credentials-binding:702.vfe613e537e88
 customizable-header:257.v1c5c2d5c0594
 dark-theme:574.va_19f05d54df5
-data-tables-api:2.3.5-1482.vb_47a_3c19f78c
+data-tables-api:2.3.5-1497.v38449eb_7d5a_1
 design-library:417.vce0571393f5b_
 display-url-api:2.217.va_6b_de84cc74b_
 docker-commons:457.v0f62a_94f11a_3
