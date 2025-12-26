@@ -13,7 +13,7 @@ catppuccin-theme:3.v903b_635ffa_b_4
 checks-api:373.vfe7645102093
 chocolate-theme:7.v6a_8b_000467c6
 cloud-stats:377.vd8a_6c953e98e
-cloudbees-bitbucket-branch-source:937.2.2
+cloudbees-bitbucket-branch-source:937.2.3
 cloudbees-folder:6.1073.va_7888eb_dd514
 cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
 coverage:2.3060.v035a_5557cdb_c
