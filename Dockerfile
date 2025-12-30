@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.543-jdk21
+FROM jenkins/jenkins:2.544-jdk21
 COPY logos /usr/share/jenkins/ref/userContent/logos
 COPY ./plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN jenkins-plugin-cli \
