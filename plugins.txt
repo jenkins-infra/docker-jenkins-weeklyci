@@ -23,7 +23,7 @@ commons-text-api:1.15.0-210.v7480a_da_70b_9e
 config-file-provider:1006.vc7366c201f57
 configuration-as-code:2006.v001a_2ca_6b_574
 copyartifact:770.va_6c69e063442
-credentials:1453.v9b_a_29777a_b_fd
+credentials:1460.v48765a_c7d849
 credentials-binding:702.vfe613e537e88
 customizable-header:257.v1c5c2d5c0594
 dark-theme:574.va_19f05d54df5
@@ -55,7 +55,7 @@ jakarta-activation-api:2.1.4-1
 jakarta-mail-api:2.1.5-1
 javax-activation-api:1.2.0-8
 javax-mail-api:1.6.2-11
-jaxb:2.3.9-133.vb_ec76a_73f706
+jaxb:2.3.9-143.v5979df3304e6
 jdk-tool:83.v417146707a_3d
 jersey2-api:2.47-165.ve7809a_3e87e0
 jjwt-api:0.11.5-120.v0268cf544b_89
