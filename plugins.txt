@@ -10,7 +10,7 @@ branch-api:2.1268.v044a_87612da_8
 buildtriggerbadge:325.vdcd8a_826e87a_
 caffeine-api:3.2.3-194.v31a_b_f7a_b_5a_81
 catppuccin-theme:3.v903b_635ffa_b_4
-checks-api:373.vfe7645102093
+checks-api:402.vca_263b_f200e3
 chocolate-theme:7.v6a_8b_000467c6
 cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:937.2.3
@@ -36,7 +36,7 @@ echarts-api:6.0.0-1165.vd1283a_3e37d4
 extended-read-permission:68.vd270568a_7520
 favorite:2.253.v9b_413168133b_
 font-awesome-api:7.1.0-882.v1dfb_771e3278
-forensics-api:3.1772.v99ca_3d83b_9fa_
+forensics-api:3.1832.va_1179842528b_
 git:5.8.1
 git-client:6.5.0
 git-forensics:3.2274.v3dc0fd546572
@@ -97,7 +97,7 @@ ssh-agent:386.v36cc0c7582f0
 ssh-credentials:361.vb_f6760818e8c
 sshd:3.374.v19b_d59ce6610
 structs:362.va_b_695ef4fdf9
-support-core:1763.ve4ce0d10a_3f0
+support-core:1766.vd0e334b_f6b_3a_
 theme-manager:327.v780d7096ec29
 timestamper:1.30
 token-macro:477.vd4f0dc3cb_cf1
