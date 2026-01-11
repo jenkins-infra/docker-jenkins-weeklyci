@@ -88,7 +88,7 @@ plugin-util-api:6.1192.v30fe6e2837ff
 prism-api:1.30.0-630.va_e19d17f83b_0
 pubsub-light:1.19
 scm-api:724.v7d839074eb_5c
-scm-filter-branch-pr:222.v72301ecb_a_ee7
+scm-filter-branch-pr:264.v39ce4f34d572
 script-security:1385.v7d2d9ec4d909
 snakeyaml-api:2.5-143.v93b_c004f89de
 solarized-theme:28.vfe25223f14fe
