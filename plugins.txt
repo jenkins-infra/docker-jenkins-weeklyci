@@ -23,7 +23,7 @@ commons-text-api:1.15.0-210.v7480a_da_70b_9e
 config-file-provider:1006.vc7366c201f57
 configuration-as-code:2006.v001a_2ca_6b_574
 copyartifact:770.va_6c69e063442
-credentials:1465.ve8c9516d78b_f
+credentials:1480.v2246fd131e83
 credentials-binding:702.vfe613e537e88
 customizable-header:257.v1c5c2d5c0594
 dark-theme:574.va_19f05d54df5
@@ -31,7 +31,7 @@ data-tables-api:2.3.5-1497.v38449eb_7d5a_1
 design-library:417.vce0571393f5b_
 display-url-api:2.217.va_6b_de84cc74b_
 docker-commons:457.v0f62a_94f11a_3
-durable-task:639.vefb_3d8372f6d
+durable-task:651.v1f5e074fc83f
 echarts-api:6.0.0-1165.vd1283a_3e37d4
 extended-read-permission:68.vd270568a_7520
 favorite:2.253.v9b_413168133b_
@@ -80,7 +80,7 @@ pipeline-milestone-step:138.v78ca_76831a_43
 pipeline-model-api:2.2277.v00573e73ddf1
 pipeline-model-definition:2.2277.v00573e73ddf1
 pipeline-model-extensions:2.2277.v00573e73ddf1
-pipeline-rest-api:2.38
+pipeline-rest-api:2.39
 pipeline-stage-step:322.vecffa_99f371c
 pipeline-stage-tags-metadata:2.2277.v00573e73ddf1
 plain-credentials:199.v9f8e1f741799
