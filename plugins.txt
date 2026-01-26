@@ -37,7 +37,7 @@ extended-read-permission:68.vd270568a_7520
 favorite:2.263.v941d21defef7
 font-awesome-api:7.1.0-882.v1dfb_771e3278
 forensics-api:3.1832.va_1179842528b_
-git:5.8.1
+git:5.9.0
 git-client:6.5.0
 git-forensics:3.2274.v3dc0fd546572
 github:1.45.0
@@ -62,7 +62,7 @@ jjwt-api:0.11.5-120.v0268cf544b_89
 jnr-posix-api:3.1.21-186.vb_7ec9b_23ce83
 job-dsl:1.93
 jsch:0.2.16-95.v3eecb_55fa_b_78
-junit:1380.v491ff054cd35
+junit:1396.v095840ed8491
 ldap:807.v7d7de30930cf
 mailer:525.v2458b_d8a_1a_71
 matrix-auth:3.2.9
