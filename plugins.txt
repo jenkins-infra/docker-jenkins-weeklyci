@@ -16,12 +16,12 @@ cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:937.2.3
 cloudbees-folder:6.1073.va_7888eb_dd514
 cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
-coverage:2.3120.v73353a_97726e
+coverage:2.3130.vcc932e7702b_8
 command-launcher:123.v37cfdc92ef67
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
 commons-text-api:1.15.0-210.v7480a_da_70b_9e
 config-file-provider:1006.vc7366c201f57
-configuration-as-code:2031.veb_a_fdda_b_3ffd
+configuration-as-code:2036.v0b_c2de701dcb_
 copyartifact:795.ve8e151429b_27
 credentials:1480.v2246fd131e83
 credentials-binding:702.vfe613e537e88
