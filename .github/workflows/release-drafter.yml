@@ -21,5 +21,4 @@ jobs:
           name: next
           tag: next
           version: next
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
