@@ -9,9 +9,9 @@ bouncycastle-api:2.30.1.83-289.v8426fcd19371
 branch-api:2.1280.v0d4e5b_b_460ef
 buildtriggerbadge:343.vb_693d3ceda_44
 caffeine-api:3.2.3-194.v31a_b_f7a_b_5a_81
-catppuccin-theme:3.v903b_635ffa_b_4
+catppuccin-theme:15.v3940ff14e600
 checks-api:402.vca_263b_f200e3
-chocolate-theme:7.v6a_8b_000467c6
+chocolate-theme:10.vb_1b_05a_02e2b_d
 cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:937.2.5
 cloudbees-folder:6.1079.vc0975c2de294
@@ -23,10 +23,10 @@ commons-text-api:1.15.0-218.va_61573470393
 config-file-provider:1006.vc7366c201f57
 configuration-as-code:2053.vb_0da_47381a_25
 copyartifact:795.ve8e151429b_27
-credentials:1495.v2cc3d2266b_75
+credentials:1496.vf6821f162d4e
 credentials-binding:717.v951d49b_5f3a_a_
-customizable-header:292.v401b_17c12e68
-dark-theme:574.va_19f05d54df5
+customizable-header:293.v754cfe8036d5
+dark-theme:652.vea_da_dfea_e769
 data-tables-api:2.3.7-1534.v539d4edf109d
 design-library:417.vce0571393f5b_
 display-url-api:2.217.va_6b_de84cc74b_
@@ -64,7 +64,7 @@ job-dsl:3654.vdf58f53e2d15
 jsch:0.2.16-95.v3eecb_55fa_b_78
 junit:1403.vd9d1413fd205
 ldap:807.v7d7de30930cf
-mailer:525.v2458b_d8a_1a_71
+mailer:534.v1b_36f5864073
 matrix-auth:3.2.9
 matrix-project:870.v9db_fcfc2f45b_
 metrics:4.2.37-494.v06f9a_939d33a_
@@ -91,7 +91,7 @@ scm-api:728.vc30dcf7a_0df5
 scm-filter-branch-pr:264.v39ce4f34d572
 script-security:1399.ve6a_66547f6e1
 snakeyaml-api:2.5-149.v72471e9c6371
-solarized-theme:28.vfe25223f14fe
+solarized-theme:31.v46d438294692
 sse-gateway:1.29
 ssh-agent:386.v36cc0c7582f0
 ssh-credentials:361.vb_f6760818e8c
@@ -107,7 +107,7 @@ warnings-ng:12.10012.v753ff0d0363a_
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1398.v67030756d3fb_
 workflow-basic-steps:1098.v808b_fd7f8cf4
-workflow-cps:4259.vf653c2b_8a_b_69
+workflow-cps:4261.va_1fa_c7e4db_da_
 workflow-durable-task-step:1464.v2d3f5c68f84c
 workflow-job:1571.vb_423c255d6d9
 workflow-multibranch:821.vc3b_4ea_780798
