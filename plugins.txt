@@ -23,7 +23,7 @@ commons-text-api:1.15.0-218.va_61573470393
 config-file-provider:1006.vc7366c201f57
 configuration-as-code:2056.v6a_e126e16620
 copyartifact:795.ve8e151429b_27
-credentials:1498.vd852f8831d79
+credentials:1499.va_f0e811253a_6
 credentials-binding:719.v80e905ef14eb_
 customizable-header:295.v2544b_ca_19b_97
 dark-theme:652.vea_da_dfea_e769
