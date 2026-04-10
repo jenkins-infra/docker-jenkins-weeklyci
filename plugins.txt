@@ -85,7 +85,7 @@ pipeline-stage-step:345.va_96187909426
 pipeline-stage-tags-metadata:2.2277.v00573e73ddf1
 plain-credentials:199.v9f8e1f741799
 plugin-util-api:6.1192.v30fe6e2837ff
-prism-api:1.30.0-703.v116fb_3b_5b_b_a_a_
+prism-api:1.30.0-717.vb_f8360844b_53
 pubsub-light:1.19
 scm-api:728.vc30dcf7a_0df5
 scm-filter-branch-pr:264.v39ce4f34d572
