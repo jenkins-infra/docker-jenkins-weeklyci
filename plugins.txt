@@ -16,7 +16,7 @@ cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:937.3.1
 cloudbees-folder:6.1100.ve9eed61d16c4
 cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
-coverage:3.3211.vd80a_a_7203835
+coverage:3.3212.vd0f86de315fe
 command-launcher:134.v025a_5fcf9dea_
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
 commons-text-api:1.15.0-218.va_61573470393
@@ -93,7 +93,7 @@ script-security:1399.ve6a_66547f6e1
 snakeyaml-api:2.5-149.v72471e9c6371
 solarized-theme:31.v46d438294692
 sse-gateway:1.29
-ssh-agent:386.v36cc0c7582f0
+ssh-agent:396.vcc7d84e622ec
 ssh-credentials:372.va_250881b_08cd
 sshd:3.384.vc89b_5e138cf9
 structs:362.va_b_695ef4fdf9
