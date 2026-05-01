@@ -34,7 +34,7 @@ docker-commons:472.vee120e23d3a_c
 durable-task:664.v2b_e7a_dfff66c
 echarts-api:6.0.0-1281.vd3d21a_1ca_cb_4
 extended-read-permission:68.vd270568a_7520
-favorite:2.263.v941d21defef7
+favorite:2.267.vb_90d08408081
 font-awesome-api:7.2.0-983.v3f63c34eddb_9
 forensics-api:4.1881.v79c6e496c613
 git:5.10.1
