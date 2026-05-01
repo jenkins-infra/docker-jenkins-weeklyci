@@ -34,7 +34,7 @@ docker-commons:472.vee120e23d3a_c
 durable-task:664.v2b_e7a_dfff66c
 echarts-api:6.0.0-1281.vd3d21a_1ca_cb_4
 extended-read-permission:68.vd270568a_7520
-favorite:2.263.v941d21defef7
+favorite:2.267.vb_90d08408081
 font-awesome-api:7.2.0-983.v3f63c34eddb_9
 forensics-api:4.1881.v79c6e496c613
 git:5.10.1
@@ -73,7 +73,7 @@ nord-theme:1.1
 pipeline-build-step:584.vdb_a_2cc3a_d07a_
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:872.vf5b_ec277ffb_b_
+pipeline-graph-view:873.v8cb_25b_5e95f4
 pipeline-groovy-lib:797.v90ea_a_9b_e45a_0
 pipeline-input-step:551.vdff487c5998c
 pipeline-milestone-step:152.v6e22b_8cfc66c
