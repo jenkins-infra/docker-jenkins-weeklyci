@@ -1,4 +1,4 @@
-analysis-model-api:14.5.0-968.v4b_155edf8f68
+analysis-model-api:14.5.0-972.v41833a_663046
 ansicolor:536.v13fa_b_860c267
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
@@ -16,7 +16,7 @@ cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:937.3.1
 cloudbees-folder:6.1100.ve9eed61d16c4
 cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
-coverage:3.3212.vd0f86de315fe
+coverage:3.3238.v11efcd9949e6
 command-launcher:134.v025a_5fcf9dea_
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
 commons-text-api:1.15.0-218.va_61573470393
@@ -27,7 +27,7 @@ credentials:1502.v5c95e620ddfe
 credentials-binding:720.v3f6decef43ea_
 customizable-header:295.v2544b_ca_19b_97
 dark-theme:652.vea_da_dfea_e769
-data-tables-api:2.3.7-1566.v3f104e6d13ea_
+data-tables-api:2.3.8-1570.v1cb_1cd2a_0fb_c
 design-library:417.vce0571393f5b_
 display-url-api:2.217.va_6b_de84cc74b_
 docker-commons:472.vee120e23d3a_c
@@ -36,10 +36,10 @@ echarts-api:6.0.0-1287.vfd24c22a_3d00
 extended-read-permission:68.vd270568a_7520
 favorite:2.267.vb_90d08408081
 font-awesome-api:7.2.0-990.vf220b_2a_496f9
-forensics-api:4.1881.v79c6e496c613
+forensics-api:4.1891.v5e60f3377506
 git:5.10.1
 git-client:6.6.0
-git-forensics:4.2367.vb_399b_30a_e8fb_
+git-forensics:4.2385.va_e15df49d352
 github:1.46.0.1
 github-api:1.330-492.v3941a_032db_2a_
 github-branch-source:1967.1969.v205fd594c821
@@ -85,7 +85,7 @@ pipeline-stage-step:345.va_96187909426
 pipeline-stage-tags-metadata:2.2277.v00573e73ddf1
 plain-credentials:199.v9f8e1f741799
 plugin-util-api:7.1341.v039f146993d9
-prism-api:1.30.0-726.v81a_cd0f1e53b_
+prism-api:1.30.0-727.vc475481f034d
 pubsub-light:1.19
 scm-api:728.vc30dcf7a_0df5
 scm-filter-branch-pr:264.v39ce4f34d572
