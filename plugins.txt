@@ -4,7 +4,7 @@ antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
 authentication-tokens:1.144.v5ff4a_5ec5c33
 basic-branch-build-strategies:317.v85b_331d6cc42
-bootstrap5-api:5.3.8-1038.vee76a_fe825ff
+bootstrap5-api:5.3.8-1048.va_c299057e35c
 bouncycastle-api:2.30.1.84-291.v9f17b_21896e2
 branch-api:2.1280.v0d4e5b_b_460ef
 buildtriggerbadge:343.vb_693d3ceda_44
@@ -15,13 +15,13 @@ chocolate-theme:10.vb_1b_05a_02e2b_d
 cloud-stats:423.v63f017a_f582c
 cloudbees-bitbucket-branch-source:937.3.2
 cloudbees-folder:6.1100.ve9eed61d16c4
-cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_
+cloudbees-jenkins-advisor:410.v52855a_9ca_3f6
 coverage:3.3256.va_c056a_db_61b_3
 command-launcher:134.v025a_5fcf9dea_
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
 commons-text-api:1.15.0-218.va_61573470393
-config-file-provider:1006.vc7366c201f57
-configuration-as-code:2082.vdb_db_4622e9fa_
+config-file-provider:1013.v73c323e52b_1f
+configuration-as-code:2088.ve3b_42c663c80
 copyartifact:795.ve8e151429b_27
 credentials:1502.v5c95e620ddfe
 credentials-binding:725.ve52b_2328a_fde
@@ -40,7 +40,7 @@ forensics-api:4.1891.v5e60f3377506
 git:5.10.1
 git-client:6.6.0
 git-forensics:4.2385.va_e15df49d352
-github:1.46.0.1
+github:1.47.0
 github-api:1.330-492.v3941a_032db_2a_
 github-branch-source:1967.1969.v205fd594c821
 github-checks:679.v74133da_b_435a_
@@ -62,7 +62,7 @@ jjwt-api:0.13.0-141.vd58b_a_9592b_6c
 jnr-posix-api:3.1.22-204.v925e2b_09a_42c
 job-dsl:3654.vdf58f53e2d15
 jsch:0.2.16-95.v3eecb_55fa_b_78
-junit:1407.v9d04cdeedb_6a_
+junit:1413.v736fa_5b_61d80
 ldap:807.809.vd3a_4e5e4ec98
 mailer:534.v1b_36f5864073
 matrix-auth:3.2.10
@@ -73,7 +73,7 @@ nord-theme:1.1
 pipeline-build-step:584.vdb_a_2cc3a_d07a_
 pipeline-github:2.8-191.cb_1a_07f10b_a_f
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:932.v7cea_0a_80605f
+pipeline-graph-view:940.v790e7a_c51722
 pipeline-groovy-lib:798.v5cc688825312
 pipeline-input-step:551.vdff487c5998c
 pipeline-milestone-step:152.v6e22b_8cfc66c
