@@ -1,4 +1,4 @@
-analysis-model-api:14.14.0-1004.vf53c9efb_f455
+analysis-model-api:14.16.0-1014.v2802998b_7789
 ansicolor:536.v13fa_b_860c267
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
@@ -39,7 +39,7 @@ font-awesome-api:7.3.1-1013.v0835a_879ec6d
 forensics-api:4.1923.v445c56df9b_2e
 git:5.10.1
 git-client:6.6.1
-git-forensics:4.2416.v46d45e29f28f
+git-forensics:4.2463.vf6fecb_444a_b_3
 github:1.47.0
 github-api:1.330-492.v3941a_032db_2a_
 github-branch-source:1983.vfa_27ed961853
@@ -89,7 +89,7 @@ prism-api:1.30.0-741.v034eb_0b_0a_a_fa_
 pubsub-light:1.19
 scm-api:728.vc30dcf7a_0df5
 scm-filter-branch-pr:264.v39ce4f34d572
-script-security:1402.1405.vc96e74964250
+script-security:1412.v7737b_3405f86
 snakeyaml-api:2.5-149.v72471e9c6371
 solarized-theme:31.v46d438294692
 sse-gateway:1.29
