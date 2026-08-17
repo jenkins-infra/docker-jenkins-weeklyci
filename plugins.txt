@@ -62,7 +62,7 @@ jjwt-api:0.13.0-141.vd58b_a_9592b_6c
 jnr-posix-api:3.2.1-213.v7401d99f6220
 job-dsl:3732.v9a_c49a_61a_313
 jsch:0.2.16-95.v3eecb_55fa_b_78
-junit:1418.v67a_81935603c
+junit:1420.vcffa_f990a_d63
 ldap:807.809.vd3a_4e5e4ec98
 mailer:534.v1b_36f5864073
 matrix-auth:3.3
