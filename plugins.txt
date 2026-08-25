@@ -13,10 +13,10 @@ catppuccin-theme:15.v3940ff14e600
 checks-api:415.vf022234a_931d
 chocolate-theme:10.vb_1b_05a_02e2b_d
 cloud-stats:423.v63f017a_f582c
-cloudbees-bitbucket-branch-source:937.3.8
+cloudbees-bitbucket-branch-source:937.3.9
 cloudbees-folder:6.1106.v3a_d9a_6d2465e
 cloudbees-jenkins-advisor:410.v52855a_9ca_3f6
-coverage:3.3325.v2f3dd167a_b_e5
+coverage:3.3358.v9487dde48783
 command-launcher:134.v025a_5fcf9dea_
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
 commons-text-api:1.15.0-218.va_61573470393
@@ -25,7 +25,7 @@ configuration-as-code:2117.vc05a_0b_e6b_f4e
 copyartifact:795.ve8e151429b_27
 credentials:1511.v2e3cb_0008ef0
 credentials-binding:728.v902a_273b_8947
-customizable-header:295.v2544b_ca_19b_97
+customizable-header:330.v8a_8d87511ea_1
 dark-theme:652.vea_da_dfea_e769
 data-tables-api:2.3.8-1570.v1cb_1cd2a_0fb_c
 design-library:460.ve2a_a_b_066e678
@@ -50,7 +50,7 @@ handy-uri-templates-2-api:2.1.8-38.vcea_5d521d5f3
 inline-pipeline:1.0.32.vf433f2d57630
 instance-identity:203.v15e81a_1b_7a_38
 ionicons-api:94.vcc3065403257
-jackson2-api:2.22.1-443.vc91f592333c4
+jackson2-api:2.22.2-445.vdc613f1d8012
 jakarta-activation-api:2.1.4-1
 jakarta-mail-api:2.1.5-1
 javax-activation-api:1.2.0-8
@@ -59,14 +59,14 @@ jaxb:2.3.9-143.v5979df3304e6
 jdk-tool:83.v417146707a_3d
 jersey2-api:2.48-180.ve47b_264f849b_
 jjwt-api:0.13.0-141.vd58b_a_9592b_6c
-jnr-posix-api:3.2.1-213.v7401d99f6220
+jnr-posix-api:3.2.2-218.vd6064f4fa_0a_d
 job-dsl:3732.v9a_c49a_61a_313
 jsch:0.2.16-95.v3eecb_55fa_b_78
-junit:1421.v99cb_b_2577709
+junit:1424.vc64a_edde7777
 ldap:807.809.vd3a_4e5e4ec98
 mailer:534.v1b_36f5864073
 matrix-auth:3.3
-matrix-project:905.vcc6831e8760a_
+matrix-project:917.v22eda_817646e
 metrics:4.2.37-494.v06f9a_939d33a_
 node-iterator-api:72.vc90e81737df1
 nord-theme:1.1
@@ -93,7 +93,7 @@ script-security:1412.v7737b_3405f86
 snakeyaml-api:2.5-149.v72471e9c6371
 solarized-theme:31.v46d438294692
 sse-gateway:1.29
-ssh-agent:420.v8b_b_e602e949e
+ssh-agent:427.v5818150c4b_c6
 ssh-credentials:372.va_250881b_08cd
 sshd:3.384.vc89b_5e138cf9
 structs:362.va_b_695ef4fdf9
