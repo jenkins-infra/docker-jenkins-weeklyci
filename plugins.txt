@@ -1,4 +1,4 @@
-analysis-model-api:14.16.0-1014.v2802998b_7789
+analysis-model-api:14.17.0-1026.v569d23ce841e
 ansicolor:542.v03d235fee02d
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
@@ -103,7 +103,7 @@ timestamper:1.30
 token-macro:477.vd4f0dc3cb_cf1
 trilead-api:2.284.v1974ea_324382
 variant:70.va_d9f17f859e0
-warnings-ng:13.10266.vefe0a_717b_e11
+warnings-ng:13.10275.vb_61ff8f4c340
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1413.v2ff1a_5e720fa_
 workflow-basic-steps:1098.v808b_fd7f8cf4
