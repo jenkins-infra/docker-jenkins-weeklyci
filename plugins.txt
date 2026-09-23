@@ -15,7 +15,7 @@ chocolate-theme:10.vb_1b_05a_02e2b_d
 cloud-stats:423.v63f017a_f582c
 cloudbees-bitbucket-branch-source:937.3.10
 cloudbees-folder:6.1106.v3a_d9a_6d2465e
-cloudbees-jenkins-advisor:410.v52855a_9ca_3f6
+cloudbees-jenkins-advisor:412.v9d1e9d6a_f428
 coverage:3.3377.v3cf2f0825179
 command-launcher:141.v9578cf36b_311
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
