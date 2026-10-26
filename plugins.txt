@@ -50,7 +50,7 @@ handy-uri-templates-2-api:2.1.8-38.vcea_5d521d5f3
 inline-pipeline:1.0.32.vf433f2d57630
 instance-identity:203.v15e81a_1b_7a_38
 ionicons-api:94.vcc3065403257
-jackson2-api:2.22.3-447.v6a_93ce7d2c82
+jackson2-api:2.22.4-449.v4ee9f4ec4123
 jakarta-activation-api:2.1.4-1
 jakarta-mail-api:2.1.5-1
 javax-activation-api:1.2.0-8
@@ -73,7 +73,7 @@ nord-theme:1.1
 pipeline-build-step:601.v6d4c6d1a_9dc7
 pipeline-github:2.8-191.cb_1a_07f10b_a_f
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:1066.v00b_91b_b_8024a_
+pipeline-graph-view:1078.veb_b_b_196c25e7
 pipeline-groovy-lib:822.vc95f70dea_db_7
 pipeline-input-step:560.v56198a_642157
 pipeline-milestone-step:152.v6e22b_8cfc66c
@@ -106,11 +106,11 @@ variant:70.va_d9f17f859e0
 warnings-ng:13.10333.v259db_dd5b_b_02
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1429.v7a_1b_efb_a_f7c5
-workflow-basic-steps:1098.v808b_fd7f8cf4
+workflow-basic-steps:1129.v60e3c7e6654d
 workflow-cps:4395.v738456a_5da_6b_
 workflow-durable-task-step:1479.v56e587f413a_7
-workflow-job:1609.v8926e7962024
+workflow-job:1622.vc41c189cb_e5f
 workflow-multibranch:842.v3a_b_59b_57b_e6e
 workflow-scm-step:487.v41313a_96b_65d
 workflow-step-api:724.v538c2362b_dfb_
-workflow-support:1015.v785e5a_b_b_8b_22
+workflow-support:1028.vc22910142650
