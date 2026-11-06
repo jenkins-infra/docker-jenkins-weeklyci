@@ -16,7 +16,7 @@ cloud-stats:423.v63f017a_f582c
 cloudbees-bitbucket-branch-source:937.3.11
 cloudbees-folder:6.1107.v31f8955765c8
 cloudbees-jenkins-advisor:412.v9d1e9d6a_f428
-coverage:4.3547.va_82e5f9fa_d6e
+coverage:4.3553.v6d4299598d31
 command-launcher:144.vb_6cb_566c6c04
 commons-lang3-api:3.21.0-122.v6a_ea_4fd34049
 commons-text-api:1.15.0-218.va_61573470393
@@ -73,7 +73,7 @@ nord-theme:1.1
 pipeline-build-step:601.v6d4c6d1a_9dc7
 pipeline-github:2.8-191.cb_1a_07f10b_a_f
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:1100.v62e44688f1f6
+pipeline-graph-view:1101.v86fd4564c864
 pipeline-groovy-lib:822.vc95f70dea_db_7
 pipeline-input-step:560.v56198a_642157
 pipeline-milestone-step:152.v6e22b_8cfc66c
