@@ -10,7 +10,7 @@ branch-api:2.1303.v9f3b_95dc329d
 buildtriggerbadge:343.vb_693d3ceda_44
 caffeine-api:3.3.1-214.v18eb_56b_34920
 catppuccin-theme:15.v3940ff14e600
-checks-api:438.v9fcc0f0e2013
+checks-api:440.v53a_b_6c39a_b_b_b_
 chocolate-theme:10.vb_1b_05a_02e2b_d
 cloud-stats:423.v63f017a_f582c
 cloudbees-bitbucket-branch-source:937.3.11
@@ -38,7 +38,7 @@ favorite:2.267.vb_90d08408081
 font-awesome-api:7.3.1-1013.v0835a_879ec6d
 forensics-api:4.1923.v445c56df9b_2e
 git:5.11.0
-git-client:6.7.0
+git-client:6.7.1
 git-forensics:4.2557.v2c7f200dfc72
 github:1.47.0
 github-api:1.330-492.v3941a_032db_2a_
@@ -70,10 +70,10 @@ matrix-project:928.v1effc3f3a_236
 metrics:4.2.37-494.v06f9a_939d33a_
 node-iterator-api:72.vc90e81737df1
 nord-theme:1.1
-pipeline-build-step:601.v6d4c6d1a_9dc7
+pipeline-build-step:605.v00486e8f4b_3e
 pipeline-github:2.8-191.cb_1a_07f10b_a_f
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:1125.va_cc0898000b_0
+pipeline-graph-view:1128.ve30e2d3c8b_f1
 pipeline-groovy-lib:822.vc95f70dea_db_7
 pipeline-input-step:568.v0c9db_2652741
 pipeline-milestone-step:152.v6e22b_8cfc66c
