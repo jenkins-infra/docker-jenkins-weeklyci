@@ -36,7 +36,7 @@ echarts-api:6.1.0-1321.v86c4c5114494
 extended-read-permission:92.v1b_f0c20b_75db_
 favorite:2.275.v84e8229f6164
 font-awesome-api:7.3.1-1013.v0835a_879ec6d
-forensics-api:4.1923.v445c56df9b_2e
+forensics-api:4.1977.v0f55b_7ee93a_4
 git:5.11.0
 git-client:6.7.1
 git-forensics:4.2557.v2c7f200dfc72
@@ -62,11 +62,11 @@ jjwt-api:0.13.0-141.vd58b_a_9592b_6c
 jnr-posix-api:3.2.8-230.v137a_18d87c13
 job-dsl:3752.vb_199526b_20c3
 jsch:0.2.16-95.v3eecb_55fa_b_78
-junit:1465.v025001ca_dc18
+junit:1466.v0643b_53583d2
 ldap:825.v2fca_37dd5b_cb_
 mailer:534.v1b_36f5864073
 matrix-auth:3.3
-matrix-project:928.v1effc3f3a_236
+matrix-project:954.v656d2cf610c4
 metrics:4.2.37-494.v06f9a_939d33a_
 node-iterator-api:72.vc90e81737df1
 nord-theme:1.1
