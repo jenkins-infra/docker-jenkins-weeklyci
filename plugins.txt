@@ -13,10 +13,10 @@ catppuccin-theme:15.v3940ff14e600
 checks-api:441.v54e82638ca_71
 chocolate-theme:10.vb_1b_05a_02e2b_d
 cloud-stats:423.v63f017a_f582c
-cloudbees-bitbucket-branch-source:937.3.11
+cloudbees-bitbucket-branch-source:937.4.0
 cloudbees-folder:6.1107.v31f8955765c8
 cloudbees-jenkins-advisor:412.v9d1e9d6a_f428
-coverage:4.3620.v407ef5b_88f0d
+coverage:4.3627.v8c2b_efe6d608
 command-launcher:144.vb_6cb_566c6c04
 commons-lang3-api:3.21.0-122.v6a_ea_4fd34049
 commons-text-api:1.15.0-218.va_61573470393
